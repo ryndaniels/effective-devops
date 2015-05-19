@@ -1,7 +1,25 @@
+# [fit] Effective Devops:
+# [fit] Collaboration and Tools
+## Jennifer Davis & Katherine Daniels
+
+---
+
+(schedule and whatnot)
+
+---
+
+(our intros)
+
+---
+
+(setting expectations)
+
+---
+
 # Local Development Environment
 
 * consistent set of tools
-* speed of 
+* speed of
 
 ---
 # Provisioned node - LDE
@@ -14,12 +32,12 @@
 * Git
 
 ---
-# [fit] Configuration Management 
+# [fit] Configuration Management
 
 * process of identifying, managing, monitoring, and auditing a product through its entire life including the processes, documentation, people, tools, software,  and systems.
 
 ---
-# Version Control 
+# Version Control
 
 * records changes to files or sets of files stored within the system
 
@@ -59,10 +77,10 @@ git merge origin/master
 * collaboration prior to integration
  * discussion
  * follow up commits
- 
+
 ---
 
-# git pull 
+# git pull
 
 git pull REMOTE
 
@@ -75,7 +93,7 @@ git pull REMOTE
 ---
 # git push remote branch
 
-* transfer commits from a local repo to a remote repo. 
+* transfer commits from a local repo to a remote repo.
 * counterpart to git fetch
 
 ---
@@ -126,7 +144,7 @@ git pull REMOTE
 # Environments
 
 ---
-# Chef 
+# Chef
 
 * Chef Server
 * Chef Zero
@@ -136,7 +154,7 @@ git pull REMOTE
 # Supermarket
 
 ---
-# Chef DK 
+# Chef DK
 
 ---
 # Berkshelf
@@ -173,5 +191,43 @@ git pull REMOTE
 ---
 
 # Continuous Deployment
+
+---
+
+---
+
+# [fit] Measuring Impact and Value of Change
+
+---
+
+# Impact
+
+---
+
+## Impact on Availability
+* Overall site/app availability
+* Individual service availability
+
+---
+
+## Impact on Quality
+* Service quality (SLAs)
+* Visibility of quality
+
+---
+
+(examples of things to measure from our example)
+
+---
+
+# Assignment 4
+
+---
+
+(review)
+
+---
+
+
 
 

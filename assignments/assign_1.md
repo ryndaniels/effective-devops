@@ -2,18 +2,18 @@
 
 ## Overview
 
-In this exercise each participant configures and tests a local development environment. 
+In this exercise each participant configures and tests a local development environment.
 
-## Create a GitHub identity 
+## Create a GitHub identity
 
 * If you don't already have a github account, create one.
 * Browse to http://github.com. Supply a username, email address, and password.
-* Free plan is fine. Other plans allow you to have private repo. 
+* Free plan is fine. Other plans allow you to have private repo.
 
 ## Share your GitHub identity with your group
 
 * Jennifer Davis, iennae
-* Katherine Daniels, 
+* Katherine Daniels, kdaniels
 
 ## Create GitHub Organization (1 per team)
 
@@ -23,7 +23,7 @@ In this exercise, each team will create a single github organization and invite 
 * Click on the "Create organization"
 * Choose your organization name based off of your team name.
 * Billing email off of a team member's email address.
-* Open Source plan 
+* Open Source plan
 * Click on Create organization.
 * Invite Jennifer, Katherine, and the rest of the team to the organization.
 
@@ -44,9 +44,9 @@ In this exercise, you will create a new repository for the team called "initial-
 ## Verify access to repo.
 
 * git clone git@github.com:ORGANIZATION/initial-git-test.git
-* update README.md with your name 
+* update README.md with your name
 * git add README.md
-* git commit -m "added name" 
+* git commit -m "added name"
 * git push origin master
 
 ### Problems
