@@ -1,7 +1,68 @@
+# Effective Devops - Collaboration and Tools
+
+---
+# Introductions
+
+---
+# Jennifer Davis
+
+---
+# Katherine Daniels
+
+---
+# Effective Devops 
+
+---
+# What is Devops
+
+---
+# Folk Models
+
+---
+
+# Five Pillars of Effective Devops
+
+* Collaboration
+* Hiring
+* Affinity
+* Tools
+* Scaling
+
+---
+# Collaboration and Tools
+
+---
+# High Performing devops Teams 
+# are more Agile
+## 30X more frequent deployments
+## 8000X faster lead times than peers
+
+2014 PuppetLabs State of DevOps Survey
+
+---
+# High Performing devops Teams
+# are more Reliable
+## 2X change success rate
+## 12X faster mean time to recovery (MTTR)
+
+2014 PuppetLabs State of DevOps Survey
+
+---
+
+---
+# The Devops Compact
+
+
+
+---
+
+
+---
 # Local Development Environment
 
-* consistent set of tools
-* speed of 
+* consistent set of tools across the team
+* ability to quickly onboard new engineers
+
 
 ---
 # Provisioned node - LDE
@@ -67,7 +128,6 @@ git merge origin/master
 git pull REMOTE
 
 ---
-
 # git pull --rebase
 
 * ensure linear history by preventing unnecessary merge commits
@@ -154,24 +214,6 @@ git pull REMOTE
 # Assignment 2
 
 
----
 
-# Continuous Integration
-
----
-
-# Test and Build Automation
-
----
-
-# Continuous Delivery
-
----
-
-# Application Deployment
-
----
-
-# Continuous Deployment
 
 
