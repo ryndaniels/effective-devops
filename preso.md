@@ -64,14 +64,39 @@
 2014 PuppetLabs State of DevOps Survey
 
 ---
-
----
 # The Devops Compact
 
+---
+# Team
 
+* Speaker
+* Gatekeeper 
+* Notetaker
 
 ---
+# Discussion: Team Intro
 
+* Who is your team?
+* What are motivations?
+* What are current beliefs?
+* What are current skills? gaps in skills?
+Time: 15 minutes 
+
+---
+# Share: Team Intro
+* Team Name:
+* Common Motivations?
+* Skills? Gaps?
+
+---
+# Devops Tools
+
+* Establish local development environment
+* Version control
+* Automation 
+ * Infrastructure
+ * Sandbox
+ * Test and Build
 
 ---
 # Local Development Environment
@@ -254,7 +279,7 @@ git pull REMOTE
 
 ---
 
-# Assignment 4
+# Assignment 5
 
 ---
 
