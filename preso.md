@@ -89,6 +89,13 @@ Time: 15 minutes
 * Skills? Gaps?
 
 ---
+# Application Deployment Planning
+
+* OS - Centos
+
+---
+
+---
 # Devops Tools
 
 * Establish local development environment
@@ -186,6 +193,11 @@ git pull REMOTE
 * verifying access to repositories
 
 ---
+# Infrastructure
+
+* aggregate of applications, configurations, access control, data, compute nodes, network, storage, processes, and people. 
+
+---
 # Infrastructure Automation
 
 * systems that reduce the burden on people to manage services and increase the quality, accuracy and precision of a service to the consumers of a service
@@ -252,6 +264,85 @@ git pull REMOTE
 
 ---
 # Assignment 2
+
+---
+# Docker
+
+* images
+* registries
+* containers
+
+---
+# Managing Risk 
+
+* test
+* small frequent releases
+
+---
+# Linting
+
+* ensure code adheres to styles and conventions.
+* weave expectations into development
+* encourages collaboration 
+
+---
+# Testing
+
+* documenting objectives and intent
+* measuring "done"
+
+---
+# Code Correctness
+
+* foodcritic
+* rubocop
+
+---
+# Integration Tests
+
+* ServerSpec
+
+---
+# Rubocop
+
+* ruby linter
+* [ruby style guide](https://github.com/bbatsov/ruby-style-guide)
+* included with ChefDK
+
+---
+# Rubocop Example
+
+```
+$ rubocop cookbooks/COOKBOOK1 cookbooks/COOKBOOK2 cookbooks/COOKBOOK4
+```
+---
+# Reading Rubocop Output
+
+```
+Inspecting 8 files
+CWCWCCCC
+```
+
+* `.` means that the file contains no issues
+* `C` means a issue with convention
+* `W` means a warning
+* `E` means an error
+* `F` means an fatal error
+
+---
+# Disabling Rubocop cops
+
+Any configuration in `.rubocop.yml` is disabled.
+
+To disable string literals:
+```
+StringLiterals:
+  Enabled: false
+```
+
+# Serverspec
+
+---
 
 ---
 
