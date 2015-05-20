@@ -9,11 +9,24 @@
 ---
 # Jennifer Davis
 
+* Automation Engineer, Chef
+* Co-author of "Effective Devops"
+* DevOpsDays SV Organizer
+* Sparkly Devops Princess
+* CoffeeOps Organizer
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/effectivedevops.jpg)
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/devopsprincess.png)
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/coffee_ops.jpg)
+
 ---
 # Katherine Daniels
 
 ---
-# Team Introductions
+# Communication and Feedback
+
+Twitter: @sigje, @beerops
+Email:
 
 ---
 # Schedule
@@ -26,7 +39,19 @@
 # Expectations
 
 ---
-# Effective Devops 
+# Team Introductions
+
+* Meet your team!
+* Identify your team's 
+ * Speaker 
+ * Gatekeeper 
+ * Notetaker
+
+Time: 15 minutes
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/effectivedevops.jpg)
 
 ---
 # What is Devops
@@ -35,17 +60,7 @@
 # Folk Models
 
 ---
-
-# Five Pillars of Effective Devops
-
-* Collaboration
-* Hiring
-* Affinity
-* Tools
-* Scaling
-
----
-# Collaboration and Tools
+# Why Devops?
 
 ---
 # High Performing devops Teams 
@@ -64,19 +79,51 @@
 2014 PuppetLabs State of DevOps Survey
 
 ---
+# Five Pillars of Effective Devops
+
+* Collaboration
+* Hiring
+* Affinity
+* Tools
+* Scaling
+
+---
+# Collaboration: Individuals Working Together
+
+---
+# Hiring: Choosing Individuals
+
+---
+# Affinity: From Individuals to Teams
+
+---
+# Tools: Choosing and Using them
+
+---
+# Scaling: 
+
+---
+# Collaboration and Tools
+
+
+---
 # The Devops Compact
+
+--- 
+
+A life becomes meaningful when one sees himself or herself as an actor within the context of a story.
+
+-- George Howard
 
 ---
 # Team
 
-* Speaker
-* Gatekeeper 
-* Notetaker
+
+
 
 ---
 # Discussion: Team Intro
 
-* Who is your team?
 * What are motivations?
 * What are current beliefs?
 * What are current skills? gaps in skills?
@@ -94,6 +141,12 @@ Time: 15 minutes
 * OS - Centos
 
 ---
+# Deming Cycle
+
+* Plan: Identify and Analyze problem
+* Do: Develop and Test potential solution
+* Check: Measuring effectiveness
+* Act: Implement solution
 
 ---
 # Devops Tools
@@ -339,11 +392,33 @@ To disable string literals:
 StringLiterals:
   Enabled: false
 ```
+---
+# Foodcritic
 
-# Serverspec
+* chef linter
+* [chef style guide](http://foodcritic.io)
+* included with ChefDK
 
 ---
+# Foodcritic Example
 
+```
+$ foodcritic cookbooks/setup
+```
+---
+# Reading Foodcritic Output
+
+```
+FC008: Generated cookbook metadata needs updating: ./metadata.rb:2
+```
+---
+# ServerSpec
+
+---
+# ServerSpec Example
+
+---
+# Reading ServerSpec Output
 ---
 
 # [fit] Measuring Impact and Value of Change
