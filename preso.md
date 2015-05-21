@@ -1,3 +1,5 @@
+slidenumbers: true
+
 =======
 # [fit] Effective Devops:
 # [fit] Collaboration and Tools
@@ -111,14 +113,9 @@ Time: 15 minutes
 
 --- 
 
-A life becomes meaningful when one sees himself or herself as an actor within the context of a story.
+> A life becomes meaningful when one sees himself or herself as an actor within the context of a story.
 
 -- George Howard
-
----
-# Team
-
-
 
 
 ---
