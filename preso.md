@@ -185,14 +185,12 @@ Time: 15 minutes
 # [fit] Introduction to Git and Workflows
 
 ---
-
 # Isolated Development Environments
 
 * not automatically updated
 * manually pull upstream commits
 
 ---
-
 # git fetch
 
 * import commits, from remote to local
@@ -313,6 +311,69 @@ git pull REMOTE
 * Test harness
 
 ---
+# Test Kitchen
+
+* execute code on one or more platforms
+* driver plugins supporting various cloud and virtualization providers
+
+---
+# .kitchen.yml
+
+* driver
+* provisioner
+* platforms
+* suites
+
+---
+# .kitchen.yml driver
+
+* virtualization or cloud provider
+
+Example: vagrant, docker
+
+---
+# .kitchen.yml provisioner
+
+* application to configure the node
+
+Example: chef_zero
+
+---
+# .kitchen.yml platforms
+
+* target operating systems
+
+Example: centos-6.5
+
+---
+# .kitchen.yml suites
+
+* target configurations
+
+Example: 
+```
+ name:default
+   run_list:
+   - recipe[apache::default]
+   attributes:
+```
+
+---
+# Kitchen commands (1/2)
+
+* kitchen init
+* kitchen list
+* kitchen create
+* kitchen converge
+
+---
+# Kitchen commands (2/2)
+
+* kitchen verify
+* kitchen destroy
+* kitchen test
+
+---
 # Assignment 2
 
 ---
@@ -411,11 +472,47 @@ FC008: Generated cookbook metadata needs updating: ./metadata.rb:2
 ---
 # ServerSpec
 
+* tests to verify servers functionality
+* resource types
+ * package, service, user, and many others
+* integrates with Test Kitchen
+* http://serverspec.org
+
+---
+# ServerSpec Generic Form
+
+```
+describe "<subject>" do
+  it "<description>" do
+    expect(thing).to eq result
+  end
+end
+```
+
+---
+# ServerSpec Potential Tests
+
+* Is the service running?
+* Is the port accessible?
+* Is the expected content being served?
+
 ---
 # ServerSpec Example
 
+```
+describe 'apache' do
+ it "is installed" do
+   expect(package 'apache2').to be_installed
+ end
+ it "is running" do
+   expect(service 'apache2').to be_running
+ end
+end
+```
+
 ---
 # Reading ServerSpec Output
+
 ---
 
 # [fit] Measuring Impact and Value of Change
