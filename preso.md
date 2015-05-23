@@ -180,6 +180,9 @@ Time: 15 minutes
 # Version Control
 
 * records changes to files or sets of files stored within the system
+* enable revisions
+* integrity checking
+* collaboration
 
 ---
 # [fit] Introduction to Git and Workflows
@@ -190,6 +193,67 @@ Time: 15 minutes
 * not automatically updated
 * manually pull upstream commits
 
+---
+# Workspace Environment
+
+```
+$ git init
+$ git add . 
+```
+
+adds all files and directories to version control
+
+---
+# Commit
+
+```
+$ git commit -m "message about commit" -a
+```
+
+---
+All changes local! How to collaborate?
+
+---
+# Show all remotes
+
+```
+$ git remote -v 
+```
+
+---
+# Add remote server
+
+```
+$ git remote add NAME URL
+```
+
+---
+# Update changes to remote directory
+
+```
+$ git push REPONAME BRANCH
+```
+
+---
+# View the branches
+
+```
+$ git branch -a
+```
+
+---
+# Creating the branches
+
+```
+$ git checkout -b BRANCHNAME
+```
+
+---
+# Merging branches
+
+```
+$ git merge BRANCH
+```
 ---
 # git fetch
 
