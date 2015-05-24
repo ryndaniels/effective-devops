@@ -647,7 +647,7 @@ end
 
 ---
 
-# Impact
+# Impact of Change
 
 ---
 
@@ -691,7 +691,8 @@ end
 ```
 define command {
     command_name    check_mongodb_query
-    command_line    $USER1$/nagios-plugin-mongodb/check_mongodb.py -H $HOSTADDRESS$ -A $ARG1$ -P $ARG2$ -W $ARG3$ -C $ARG4$ -q $ARG5$
+    command_line    $USER1$/nagios-plugin-mongodb/check_mongodb.py -H $HOSTADDRESS$
+                    -A $ARG1$ -P $ARG2$ -W $ARG3$ -C $ARG4$ -q $ARG5$
 }
 
 define service {
@@ -745,15 +746,59 @@ define servicedependency{
 
 ---
 
-# Value
+# Statsd
+
+---
+```
+>>> import statsd
+>>>
+>>> timer = statsd.Timer('MyApplication')
+>>>
+>>> timer.start()
+>>> # do something here
+>>> timer.stop('SomeTimer')
+```
+---
+
+```
+>>> import statsd
+>>>
+>>> counter = statsd.Counter('MyApplication')
+>>> # do something here
+>>> counter += 1
+```
+---
+
+```
+>>> import statsd
+>>>
+>>> average = statsd.Average('MyApplication', connection)
+>>> # do something here
+>>> average.send('SomeName', 'somekey:%d'.format(value))
+```
+---
+
+# Graphite
 
 ---
 
-
+# Value of Change
 
 ---
 
-(examples of things to measure from our example)
+## Value of Availability
+
+* Better for customers
+* Better for employees (internal services)
+* Fewer pages
+
+---
+
+## Value of Quality
+
+* Deploys take less time
+* Also better for customers
+* More visibility into issues
 
 ---
 
