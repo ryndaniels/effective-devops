@@ -10,14 +10,14 @@
 
 ## Include java cookbook from supermarket
 
-* open `app/recipes/default.rb` in editor 
+* open `app/recipes/default.rb` in editor
 * add `include_recipe 'java'`
 * save file
 * open `app/metadata.rb` in editor
 * add `depends 'java'`
 * save file
 
-## Test 
+## Test
 
 * foodcritic .
 * rubocop
@@ -34,7 +34,7 @@ Style/SingleSpaceBeforeFirstArg:
 ```
 * save file
 
-## Test 
+## Test
 
 Clean up any remaining failures.
 
