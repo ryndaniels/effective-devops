@@ -24,6 +24,17 @@ slidenumbers: true
 ---
 # Katherine Daniels
 
+* Web Operations Engineer, Etsy
+* Co-author of "Effective Devops"
+* DevopsDays NYC Organizer
+* Ship Show Podcast Co-host
+* Ladies Who Linux NYC Co-organizer
+
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat.jpg)
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/beer.jpg)
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/effectivedevops.jpg)
+
 ---
 # Communication and Feedback
 
@@ -44,9 +55,9 @@ Email:
 # Team Introductions
 
 * Meet your team!
-* Identify your team's 
- * Speaker 
- * Gatekeeper 
+* Identify your team's...
+ * Speaker
+ * Gatekeeper
  * Notetaker
 
 Time: 15 minutes
@@ -65,7 +76,7 @@ Time: 15 minutes
 # Why Devops?
 
 ---
-# High Performing devops Teams 
+# High Performing devops Teams
 # are more Agile
 ## 30X more frequent deployments
 ## 8000X faster lead times than peers
@@ -102,7 +113,7 @@ Time: 15 minutes
 # Tools: Choosing and Using them
 
 ---
-# Scaling: 
+# Scaling: Growing Everything Up
 
 ---
 # Collaboration and Tools
@@ -111,7 +122,7 @@ Time: 15 minutes
 ---
 # The Devops Compact
 
---- 
+---
 
 > A life becomes meaningful when one sees himself or herself as an actor within the context of a story.
 
@@ -141,7 +152,7 @@ Time: 15 minutes
 * What are motivations?
 * What are current beliefs?
 * What are current skills? gaps in skills?
-Time: 15 minutes 
+Time: 15 minutes
 
 ---
 # Share: Team Intro
@@ -203,7 +214,7 @@ Time: 15 minutes
 
 * Establish local development environment
 * Version control
-* Automation 
+* Automation
  * Infrastructure
  * Sandbox
  * Test and Build
@@ -360,7 +371,7 @@ git pull REMOTE
 ---
 # Infrastructure
 
-* aggregate of applications, configurations, access control, data, compute nodes, network, storage, processes, and people. 
+* aggregate of applications, configurations, access control, data, compute nodes, network, storage, processes, and people.
 
 ---
 # Infrastructure Automation
@@ -467,7 +478,7 @@ Example: centos-6.5
 
 * target configurations
 
-Example: 
+Example:
 ```
  name:default
    run_list:
@@ -501,7 +512,7 @@ Example:
 * containers
 
 ---
-# Managing Risk 
+# Managing Risk
 
 * test
 * small frequent releases
@@ -511,7 +522,7 @@ Example:
 
 * ensure code adheres to styles and conventions.
 * weave expectations into development
-* encourages collaboration 
+* encourages collaboration
 
 ---
 # Testing
