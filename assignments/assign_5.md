@@ -18,3 +18,15 @@ If you have time, compare the list of formatted context items you created with t
 
 ## Intro to Statsd
 
+What metrics would be beneficial to have in your environment?
+
+* Which metrics would you want to show managers, that would make sense in a business context?
+* Which metrics would make sense in an engineering context, that would be beneficial to engineers trying to improve performance, or debug an issue while on-call?
+
+Statsd stats are organized into buckets, which can be defined as whatever you want them to be, so long as they translate into graphite. A period in a statsd metric path will separate folders in graphite.
+
+What buckets or metric paths would make the most sense for your team?
+
+Where in your code does it make sense to put the statsd implementations? See https://github.com/etsy/statsd/tree/master/examples for a list of example statsd clients in various languages. See how many you are able to actually implement in the time you have left.
+
+* Are there any of the stats you are measuring that you might want to also alert on in Nagios? If you have time, write a Nagios check and configurations for these stats.
