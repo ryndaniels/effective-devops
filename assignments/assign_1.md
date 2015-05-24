@@ -4,6 +4,21 @@
 
 In this exercise each participant configures and tests a local development environment.
 
+## Introduction to Git
+
+Make a directory that is named as the same as your team name. Create a file that is the same as your first name without any special punctuation. Initialize the repo, and then make a commit. Add a remote repository and push the code to the remote.
+
+* mkdir TEAM
+* cd TEAM
+* touch NAME
+* git init
+* git add .
+* git commit -m "test git"
+* git remote -v 
+* git remote add origin URL
+* git remote -v 
+* git push origin master
+
 ## Create a GitHub identity
 
 * If you don't already have a github account, create one.

@@ -117,6 +117,23 @@ Time: 15 minutes
 
 -- George Howard
 
+---
+# Team
+
+* common purpose
+* defined beliefs
+* empowered
+
+---
+# Common purpose
+
+* appropriate goal based on length of time
+
+---
+# Defined Beliefs
+
+---
+# Empowered
 
 ---
 # Discussion: Team Intro
@@ -133,9 +150,45 @@ Time: 15 minutes
 * Skills? Gaps?
 
 ---
+# Pairing
+
+* agile software development
+* 2 people work together on 1 workstation
+* driver - writes code
+* observer - reviews each line
+* roles switch frequently
+
+---
+# Types of Pairing
+
+* expert-expert
+* expert-novice
+* novice-novice
+
+---
+# Code Review
+
+* max 90 minute in 1 setting
+
+
+
+
+---
 # Application Deployment Planning
 
 * OS - Centos
+
+---
+# Consensus
+
+* write down plan
+* talk to everyone
+* criticism and feeedback
+* update plan
+* review plan
+* execute
+
+---
 
 ---
 # Deming Cycle
