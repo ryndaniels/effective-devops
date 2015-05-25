@@ -275,7 +275,7 @@ Time: 15 minutes
 
 ```
 $ git init
-$ git add . 
+$ git add .
 ```
 
 adds all files and directories to version control
@@ -294,7 +294,7 @@ All changes local! How to collaborate?
 # Show all remotes
 
 ```
-$ git remote -v 
+$ git remote -v
 ```
 
 ---
@@ -660,7 +660,7 @@ end
 
 ---
 
-# Impact
+# Impact of Change
 
 ---
 
@@ -670,13 +670,148 @@ end
 
 ---
 
+## Availability Monitoring
+* Uptime:
+* Pingdom, Monitis, Uptrends, etc
+* Vertical Line Technology:
+* Availability after deploys/changes
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/vlt1.png)
+
+---
+
+# Eventinator
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/vlt2.png)
+
+---
+
+## Service Availability
+
+* Nagios: Service-level monitoring and alerting
+* Nagios-herald: Alert context
+* OpsWeekly: Historical alert data
+
+---
+
+# Nagios
+
+---
+```
+define command {
+    command_name    check_mongodb_query
+    command_line    $USER1$/nagios-plugin-mongodb/check_mongodb.py -H $HOSTADDRESS$
+                    -A $ARG1$ -P $ARG2$ -W $ARG3$ -C $ARG4$ -q $ARG5$
+}
+
+define service {
+    use                     generic-service
+    hostgroup_name          Mongo Servers
+    service_description     Mongo Connect Check
+    check_command           check_mongodb!connect!27017!2!4
+}
+```
+---
+```
+define servicedependency{
+    host_name                       WWW1
+    service_description             Apache Web Server
+    dependent_host_name             WWW1
+    dependent_service_description   Main Web Site
+    execution_failure_criteria      n
+    notification_failure_criteria   w,u,c
+}
+```
+---
+
+# Nagios-herald
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/nagiosherald.png)
+
+---
+
+# OpsWeekly
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/opsweekly1.png)
+
+---
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/opsweekly2.png)
+
+---
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/opsweekly3.png)
+
+---
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/opsweekly4.png)
+
+---
+
 ## Impact on Quality
 * Service quality (SLAs)
 * Visibility of quality
 
 ---
 
-(examples of things to measure from our example)
+# Statsd
+
+---
+```
+>>> import statsd
+>>>
+>>> timer = statsd.Timer('MyApplication')
+>>>
+>>> timer.start()
+>>> # do something here
+>>> timer.stop('SomeTimer')
+```
+---
+
+```
+>>> import statsd
+>>>
+>>> counter = statsd.Counter('MyApplication')
+>>> # do something here
+>>> counter += 1
+```
+---
+
+```
+>>> import statsd
+>>>
+>>> average = statsd.Average('MyApplication', connection)
+>>> # do something here
+>>> average.send('SomeName', 'somekey:%d'.format(value))
+```
+---
+
+# Graphite
+
+---
+
+# Value of Change
+
+---
+
+## Value of Availability
+
+* Better for customers
+* Better for employees (internal services)
+* Fewer pages
+
+---
+
+## Value of Quality
+
+* Deploys take less time
+* Also better for customers
+* More visibility into issues
 
 ---
 

@@ -14,9 +14,9 @@ Make a directory that is named as the same as your team name. Create a file that
 * git init
 * git add .
 * git commit -m "test git"
-* git remote -v 
+* git remote -v
 * git remote add origin URL
-* git remote -v 
+* git remote -v
 * git push origin master
 
 ## Create a GitHub identity
