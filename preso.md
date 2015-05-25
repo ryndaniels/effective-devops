@@ -60,7 +60,7 @@ Email:
  * Gatekeeper
  * Notetaker
 
-Time: 15 minutes
+Time: 10 minutes
 
 ---
 
@@ -160,18 +160,9 @@ Time: 15 minutes
 # Empowered
 
 ---
-# Discussion: Team Intro
+# Code Review
 
-* What are motivations?
-* What are current beliefs?
-* What are current skills? gaps in skills?
-Time: 15 minutes
-
----
-# Share: Team Intro
-* Team Name:
-* Common Motivations?
-* Skills? Gaps?
+* max 90 minute in 1 setting
 
 ---
 # Pairing
@@ -190,17 +181,149 @@ Time: 15 minutes
 * novice-novice
 
 ---
-# Code Review
+# Discussion: Team Intro
 
-* max 90 minute in 1 setting
+* What are motivations?
+* What are current beliefs?
+* What are current skills? gaps in skills?
+Time: 15 minutes
+
+---
+# Share: Team Intro
+* Team Name:
+* Common Motivations?
+* Skills? Gaps?
+
+
+---
+# Fluxx 
+
+* Game about change. 
+* Rules change as you play. 
+* Goal changes frequently.
+
+---
+# Fluxx 
+
+* Starts out with 1 Rule - Draw 1, Play 1
+* Find this card (white backing)
+* Place card in the middle of table
+
+---
+# Fluxx
+
+* Shuffle deck
+* Deal 3 cards to each player
+
+---
+# Fluxx
+
+* First player is the person to left of Dealer.
+* Start out following the Draw 1, Play 1 rule until overridden by new rules.
+
+---
+# Fluxx
+
+4 types of cards
+
+* goal - pink
+* keeper - green played in front of you
+* action - blue used once and discarded
+* rule - yellow 
+
+![fit](http://www.looneylabs.com/sites/default/files/Fluxx5.0_3D-Contents-hires.jpg)
 
 
 
+---
+# Fluxx - On your turn
+
+* Draw the number of cards currently required.
+* Play the number of cards currently required.
+* Discard down to hand limit (if any hand limit).
+* Discard down to keeper limit (if any keeper limit).
+
+---
+# Fluxx 
+
+* Winner is the first to meet the current Goal condition.
+
+Time: 15 minutes
+
+---
+# Retrospective
+
+Change is inevitable.
+
+---
+# Importance of Games
+
+* Build resilience.
+* Build collaboration (or competition)
+* Roles change. 
+
+---
+# Specific to Fluxx
+
+* Frustration of constant changing goals
+* Completed "work", lost value
+* Visualization of goals, everyone in alignment
+
+---
+# Visualization of Work
+
+---
+# Kanban
+
+* start with what you do now
+* agree to incremental, evolutionary change
+* respect
+* everyone is a leader
+
+---
+# Kanban Practices
+
+* visualize
+* limit wip
+* manage flow
+* make policies explicit
+* implement feedback loops
+
+---
+# Visualize
+
+* intent
+* alignment
+* conherence
+
+---
+# Limit WIP
+
+* pull (don't push) 
+
+---
+# Manage Flow
+
+* monitor/measure/report
+* incremental change
+
+---
+# Make Policies Explicit
+
+* document processes
+* group signoff 
+
+---
+# Implement Feedback Loops
+
+* collaboration 
+* retrospectives
 
 ---
 # Application Deployment Planning
 
 * OS - Centos
+
 
 ---
 # Consensus
