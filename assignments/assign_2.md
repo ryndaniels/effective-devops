@@ -19,7 +19,7 @@ In this exercise we are creating a chef-repo. The chef-repo will hold the global
 
 * Click on "Fork" and fork into your personal account.
 * git clone git@github.com:USER/chef-repo-yyyymmdd.git
-* Update README.md with your name 
+* Update README.md with your name
 
 
 
