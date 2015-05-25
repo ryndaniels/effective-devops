@@ -136,6 +136,19 @@ Time: 15 minutes
 * empowered
 
 ---
+# Small vs Large teams
+
+* large teams - roles may be highly segregated 
+* small teams - one person may be responsible for many roles
+
+---
+# Cultivating Empathy
+
+* Collect stories 
+* Listen 
+* Circle back
+
+---
 # Common purpose
 
 * appropriate goal based on length of time
