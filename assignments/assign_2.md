@@ -80,7 +80,30 @@ depends 'mysql', '~> 6.0'
 
 ### Save your changes and commit back to the team's repository
 
-** NOTE**
+_NOTE_
+
+Make sure that you are not just commiting back to your local repository on the node, or to your fork of the repository.
+
+## EXTRA CREDIT: Customize website via a Recipe (1 per team)
+
+### Create feature branch or use your branching strategy
+
+* git checkout -b custom_website
+
+### Use template resource
+
+Read up on the template resource on the [Chef Docs site](http://docs.chef.io/resources.html#template) if you don't remember what a template is.
+
+* open `app/recipes/default.rb` in editor
+* use template resource
+* save file
+* create template
+* open `app/metadata.rb` in editor, update version
+* save file
+
+### Save your changes and commit back to the team's repository
+
+_NOTE_
 
 Make sure that you are not just commiting back to your local repository on the node, or to your fork of the repository.
 
@@ -92,4 +115,9 @@ You should have an updated TEAM-repo with
 * updated docs/branch.md, skills.md
 * chef-repo
 * app cookbook
+
+You might also have
+
+* customized website 
+
 
