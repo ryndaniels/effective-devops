@@ -1,6 +1,6 @@
 # Setup a Chef Repository
 
-Read through all the instructions. Determine which items are done by each person in the team and which are done once for the whole team. Break up work into discrete chunks and ensure that everyone does part of the "1 per team" items.
+Read through all the instructions. Determine which items are done by each person in the team and which are done once for the whole team. Break up work into discrete chunks and ensure that everyone does part of the "1 per team" items. Some items have dependencies on earlier work, so make sure that you allocate work appropriately.
 
 ## Fork team repo (Everyone)
 
@@ -35,7 +35,7 @@ In this exercise we are creating a chef-repo. The chef-repo will hold the global
 
 ## Install Apache via a Recipe (1 per team)
 
-### Create feature branch 
+### Create feature branch or use your branching strategy
 
 * git checkout -b install_apache
 
@@ -52,7 +52,7 @@ In this exercise we are creating a chef-repo. The chef-repo will hold the global
 
 ### Save your changes and commit back to the team's repository
 
-** NOTE**
+_NOTE_
 
 Make sure that you are not just commiting back to your local repository on the node, or to your fork of the repository.
 
