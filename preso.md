@@ -638,11 +638,19 @@ git pull REMOTE
 
 ---
 
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat1.jpg)
+
+---
+
 # Assignment 1
 
 * verifying node
 * setting up organization
 * verifying access to repositories
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat2.jpg)
 
 ---
 
@@ -800,10 +808,17 @@ Example:
 * kitchen verify
 * kitchen destroy
 * kitchen test
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat3.jpg)
 
 ---
 
 # Assignment 2
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat4.jpg)
 
 ---
 
@@ -1113,12 +1128,14 @@ define servicedependency{
 * More visibility into issues
 
 ---
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat9.jpg)
+---
 
 # Assignment 5
 
 ---
 
-(review)
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat10.jpg)
 
 ---
 
