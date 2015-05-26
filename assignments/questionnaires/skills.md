@@ -8,15 +8,14 @@
 
 ## Beliefs
 
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Skill Inventory 
 ### Rate yourself in each skill from 1-5.
