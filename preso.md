@@ -36,18 +36,40 @@ slidenumbers: true
 
 ---
 
-# Communication and Feedback
+# Communication
 
-* Jennifer Davis Twitter: @sigje Email: iennae@gmail.com
-* Katherine Daniels Twitter: @beerops Email: sparklyyakshaver@gmail.com
+* Jennifer Davis 
+   Twitter: @sigje 
+   Email: iennae@gmail.com
+* Katherine Daniels 
+   Twitter: @beerops 
+   Email: sparklyyakshaver@gmail.com
+
+# #EffectiveDevops
+
+^ J, K
+
+---
+
+# Feedback
+
+* 
+
+^ K
 
 ---
 
 # Schedule
 
+*
 * 10:30-11am Morning Break
+*
 * 12:30-1:30pm Lunch
+*
 * 3-3:30pm Afternoon Break
+*
+
+^ J
 
 ---
 
@@ -56,6 +78,8 @@ slidenumbers: true
 * Safe space to share experiences, learn from each other
 * [Code of Conduct](http://www.oreilly.com/conferences/code-of-conduct.html)
 * Learn effective workflows for using and testing source control and configuration management
+
+^ K
 
 ---
 
@@ -69,13 +93,21 @@ slidenumbers: true
 
 Time: 10 minutes
 
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
+^ K: Because of time, 2 minutes per speaker, gatekeeper should also time speaker
+
 ---
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/effectivedevops.jpg)
 
+^ J
+
 ---
 
 # What is Devops
+
+^ J,K
 
 ---
 
@@ -83,10 +115,16 @@ Time: 10 minutes
 
 * general popularly understood meaning particular to a socio-cultural grouping but which has not been formally defined or standardized.
 
----
-# Why Devops?
+^ K
 
 ---
+
+# Why Devops?
+
+^ J,K
+
+---
+
 # High Performing Devops Teams
 # are more agile
 ## 30X more frequent deployments
@@ -94,13 +132,18 @@ Time: 10 minutes
 
 2014 PuppetLabs State of DevOps Survey
 
+^ J
+
 ---
+
 # High Performing Devops Teams
 # are more reliable
 ## 2X change success rate
 ## 12X faster mean time to recovery (MTTR)
 
 2014 PuppetLabs State of DevOps Survey
+
+^ J
 
 ---
 # Five Pillars of Effective Devops
@@ -111,11 +154,15 @@ Time: 10 minutes
 * Tools
 * Scaling
 
+^ K
+
 ---
 
 # Collaboration
 
 * Individuals Working Together
+
+^ K
 
 ---
 
@@ -123,11 +170,15 @@ Time: 10 minutes
 
 * Choosing Individuals
 
+^ K
+
 ---
 
 # Affinity
 
 * From Individuals to Teams
+
+^ K
 
 ---
 
@@ -135,17 +186,21 @@ Time: 10 minutes
 
 * Choosing and Using them
 
+^ K
+
 ---
 
 # Scaling
 
 * Growing and Decreasing 
 
+^ K
+
 ---
 
 # Collaboration and Tools
 
-^ Not enough time to cover all pillars. Not enough time to go into great depth which is why we are writing a book! We're going to focus on elements of collaboration and tools today. We'll be doing "Hiring and Tools" at Velocity NY.
+^ J: Not enough time to cover all pillars. Not enough time to go into great depth which is why we are writing a book! We're going to focus on elements of collaboration and tools today. We'll be doing "Hiring and Tools" at Velocity NY.
 
 ---
 
@@ -157,6 +212,8 @@ Time: 10 minutes
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/george.png)
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/general.png)
 
+^ J,K: Book example (bad first, then good)
+
 ---
 
 # Stormtrooper Syndrome
@@ -164,11 +221,13 @@ Time: 10 minutes
 * Agency
 * Adaptability: Role adherence
 
+^ J
+
 ---
 
 # Learned Helplessness
 
-^ When people are conditioned through environment that they have no control, will not act to change condition.
+^ K: When people are conditioned through environment that they have no control, will not act to change condition, example
 
 
 ---
@@ -177,30 +236,36 @@ Time: 10 minutes
 
 -- George Howard
 
-^ Work is meaningful when people see themselves as active participants. Sharing story is critical part of building resilience. 
+^ K: Work is meaningful when people see themselves as active participants. Sharing story is critical part of building resilience. 
 
 ---
 
 # Swift Trust
 
-* skillful self disclosure
- * what you share, how you share it
- * collective tasks vs personal agendas
+* Skillful self disclosure
+ * What you share, how you share it
+ * Collective tasks vs personal agendas
+
+^ J
 
 ---
 
 # Team
 
-* common purpose 
-* defined beliefs
-* empowered
+* Common purpose 
+* Defined beliefs
+* Empowered
+
+^ J
 
 ---
 
 # Small vs Large teams
 
-* large teams - roles may be highly segregated 
-* small teams - one person may be responsible for many roles
+* Large teams - roles may be highly segregated 
+* Small teams - one person may be responsible for many roles
+
+^ K
 
 ---
 
@@ -209,6 +274,8 @@ Time: 10 minutes
 * Collect stories 
 * Listen 
 * Circle back
+
+^ K: this is how you transform a group into a team
 
 ---
 
@@ -221,36 +288,46 @@ Time: 10 minutes
 
 [^1]: Engel, David et al. 'Reading The Mind In The Eyes Or Reading Between The Lines? Theory Of Mind Predicts Collective Intelligence Equally Well Online And Face-To-Face'. PLoS ONE 9.12 (2014): e115212. Web. 26 May 2015.
 
+^ J
+
 ---
 
-# Critical habits for teams
+# Critical Habits for Teams
 
 * Code Review
 * Pairing
+
+^ K
 
 ---
 
 # Code Review
 
-* max 90 minutes in one setting
+* Max 90 minutes in one setting
+
+^ K
 
 ---
 
 # Pairing
 
-* agile software development
+* Agile software development
 * 2 people work together on 1 workstation
-* driver - writes code
-* observer - reviews each line
-* roles switch frequently
+* Driver - writes code
+* Observer - reviews each line
+* Roles switch frequently
+
+^ J
 
 ---
 
 # Types of Pairing
 
-* expert-expert
-* expert-novice
-* novice-novice
+* Expert-expert
+* Expert-novice
+* Novice-novice
+
+^ J
 
 ^ When experts pair, work gets done quickly, new innovation not always obtained, depending on skill overlap because not questioning accepted standards of doing things.
 
@@ -264,8 +341,12 @@ Time: 10 minutes
 
 * What are motivations?
 * What are current beliefs?
-* What are current skills? gaps in skills?
+* What are current skills? Gaps in skills?
 Time: 15 minutes
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
+^ J
 
 ---
 
@@ -274,6 +355,7 @@ Time: 15 minutes
 * Common Motivations?
 * Skills? Gaps?
 
+^ K
 
 ---
 
@@ -283,6 +365,8 @@ Time: 15 minutes
 * Rules change as you play. 
 * Goal changes frequently.
 
+^ J
+
 ---
 
 # Fluxx 
@@ -291,12 +375,16 @@ Time: 15 minutes
 * Find this card (white backing)
 * Place card in the middle of table
 
+^ J
+
 ---
 
 # Fluxx
 
 * Shuffle deck
 * Deal 3 cards to each player
+
+^ J
 
 ---
 
@@ -305,18 +393,22 @@ Time: 15 minutes
 * First player is the person to left of Dealer.
 * Start out following the Draw 1, Play 1 rule until overridden by new rules.
 
+^ J
+
 ---
 
 # Fluxx
 
 4 types of cards
 
-* goal - pink
-* keeper - green played in front of you
-* action - blue used once and discarded
-* rule - yellow 
+* Goal - pink
+* Keeper - green played in front of you
+* Action - blue used once and discarded
+* Rule - yellow 
 
 ![fit](http://www.looneylabs.com/sites/default/files/Fluxx5.0_3D-Contents-hires.jpg)
+
+^ J
 
 ---
 
@@ -327,6 +419,8 @@ Time: 15 minutes
 * Discard down to hand limit (if any hand limit).
 * Discard down to keeper limit (if any keeper limit).
 
+^ J
+
 ---
 
 # Fluxx 
@@ -335,11 +429,17 @@ Time: 15 minutes
 
 Time: 15 minutes
 
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
+^ K
+
 ---
 
 # Retrospective
 
 Change is inevitable.
+
+^ K
 
 ---
 
@@ -349,6 +449,8 @@ Change is inevitable.
 * Build collaboration (or competition)
 * Roles change 
 
+^ J
+
 ---
 
 # Specific to Fluxx
@@ -357,12 +459,18 @@ Change is inevitable.
 * Completed "work", lost value
 * Visualization of goals, everyone in alignment
 
+^ J
+
+^ THIS SHOULD BE JUST BEFORE THE FIRST BREAK AT 10:30
+
 ---
 
 # Visualization of Work
 
 * Bug/issue queue
 * Kanban
+
+^ K
 
 ---
 
@@ -372,6 +480,9 @@ Change is inevitable.
 * Agree to incremental, evolutionary change
 * Respect
 * Everyone is a leader
+
+^ K: Model what you're currently doing: how does work get done, what states do things get into, how do things get blocked
+^ Everyone on the team is empowered to pull things, to suggest change, to create their stories 
 
 ---
 
@@ -383,6 +494,8 @@ Change is inevitable.
 * Make policies explicit
 * Implement feedback loops
 
+^ K
+
 ---
 
 # Visualize
@@ -391,11 +504,15 @@ Change is inevitable.
 * Alignment
 * Coherence
 
+^ K (tie back to Fluxx)
+
 ---
 
 # Limit WIP
 
 * Pull (don't push) 
+
+^ K
 
 ---
 
@@ -404,12 +521,16 @@ Change is inevitable.
 * Monitor/measure/report
 * Incremental change
 
+^ K
+
 ---
 
 # Make Policies Explicit
 
 * Document processes
 * Group signoff 
+
+^ K
 
 ---
 
@@ -418,7 +539,7 @@ Change is inevitable.
 * Collaboration 
 * Retrospectives
 
-^ EXPECT TO BE HERE BY 10:30AM BREAK
+^ K (tie back to fluxx)
 
 ---
 
@@ -430,6 +551,8 @@ Deming Cycle
 * Do: Develop and Test potential solution
 * Check: Measuring effectiveness
 * Act: Implement solution
+
+^ J
 
 ---
 
@@ -634,6 +757,8 @@ git pull REMOTE
 
 Time: 15 minutes
 
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
 ---
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat2.jpg)
@@ -827,6 +952,10 @@ Example:
 
 # Assignment 2
 
+Time: 20 minutes
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
 ---
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat4.jpg)
@@ -997,15 +1126,21 @@ end
 
 # Assignment 3
 
+Time: 10 minutes
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
 ---
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat6.jpg)
 
 ---
 
-# Retrospective Assignment 3
+# Retrospective on Assignment 3
 
 Time: 15 minutes 
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
 ---
 
@@ -1016,6 +1151,8 @@ Time: 15 minutes
 # Assignment 4
 
 Time: 20 minutes
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
 ---
 
@@ -1038,6 +1175,7 @@ Time: 20 minutes
 # [fit] Measuring Impact and Value of Change
 
 ^ Katherine
+
 ---
 
 # Impact of Change
@@ -1201,6 +1339,10 @@ define servicedependency{
 ---
 
 # Assignment 5
+
+Time: 20 minutes
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
 ---
 
