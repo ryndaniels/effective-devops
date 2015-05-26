@@ -543,7 +543,14 @@ Change is inevitable.
 
 ---
 
+# Intro JoeNGo
+
+^ J
+
+---
+
 # Application Deployment Planning
+
 
 Deming Cycle
 
@@ -562,6 +569,16 @@ Deming Cycle
 * (A)pache
 * (M)ySQL
 * (P)HP, Perl, or Python
+
+^ J
+
+---
+
+# Group Discussion
+
+* What are the implications of our decisions?
+
+^ J
 
 ---
 
