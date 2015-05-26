@@ -1,15 +1,16 @@
 slidenumbers: true
+<!-- theme: "Letters from Sweden" white -->
 
 =======
 # [fit] Effective Devops:
 # [fit] Collaboration and Tools
-## Jennifer Davis & Katherine Daniels
+### Jennifer Davis & Katherine Daniels
 
 ---
 # Introductions
 
 ---
-# Jennifer Davis
+# [fit] Jennifer Davis
 
 * Automation Engineer, Chef
 * Co-author of "Effective Devops"
@@ -49,9 +50,14 @@ Email:
 * 3-3:30pm Afternoon Break
 
 ---
+
 # Expectations
 
+* Safe space to share experiences, learn from each other
+* [Code of Conduct](http://www.oreilly.com/conferences/code-of-conduct.html)
+
 ---
+
 # Team Introductions
 
 * Meet your team!
@@ -118,9 +124,27 @@ Time: 10 minutes
 ---
 # Collaboration and Tools
 
+^ Not enough time to cover all pillars. Not enough time to go into great depth which is why we are writing a book! We're going to focus on elements of collaboration and tools today. We'll be doing "Hiring and Tools" at Velocity NY.
 
 ---
 # The Devops Compact
+
+* shared mutual understanding
+* established boundaries
+
+---
+
+# Stormtrooper Syndrome
+
+* Agency
+* Adaptability: Role adherence
+
+---
+
+# Learned Helplessness
+
+^ When people are conditioned through environment that they have no control, will not act to change condition.
+
 
 ---
 
@@ -128,7 +152,18 @@ Time: 10 minutes
 
 -- George Howard
 
+^ Work is meaningful when people see themselves as active participants. Sharing story is critical part of building resilience. 
+
 ---
+
+# Swift Trust
+
+* skillful self disclosure
+ * what you share, how you share it
+ * collective tasks vs personal agendas
+
+---
+
 # Team
 
 * common purpose
@@ -136,12 +171,14 @@ Time: 10 minutes
 * empowered
 
 ---
+
 # Small vs Large teams
 
 * large teams - roles may be highly segregated 
 * small teams - one person may be responsible for many roles
 
 ---
+
 # Cultivating Empathy
 
 * Collect stories 
@@ -149,22 +186,37 @@ Time: 10 minutes
 * Circle back
 
 ---
+
 # Common purpose
 
 * appropriate goal based on length of time
 
 ---
+
 # Defined Beliefs
 
 ---
+
 # Empowered
 
 ---
+
+# Smarter Teams Build Better Value[^1]
+
+* Lots of Communication
+* Contribute equally to team's discussions
+* Theory of Mind
+* Increased diversity
+
+[^1]: Engel, David et al. 'Reading The Mind In The Eyes Or Reading Between The Lines? Theory Of Mind Predicts Collective Intelligence Equally Well Online And Face-To-Face'. PLoS ONE 9.12 (2014): e115212. Web. 26 May 2015.
+---
+
 # Code Review
 
 * max 90 minute in 1 setting
 
 ---
+
 # Pairing
 
 * agile software development
@@ -174,6 +226,7 @@ Time: 10 minutes
 * roles switch frequently
 
 ---
+
 # Types of Pairing
 
 * expert-expert
@@ -181,12 +234,15 @@ Time: 10 minutes
 * novice-novice
 
 ---
+
 # Discussion: Team Intro
 
 * What are motivations?
 * What are current beliefs?
 * What are current skills? gaps in skills?
 Time: 15 minutes
+
+
 
 ---
 # Share: Team Intro
@@ -244,6 +300,8 @@ Time: 15 minutes
 * Discard down to keeper limit (if any keeper limit).
 
 ---
+![inline](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
 # Fluxx 
 
 * Winner is the first to meet the current Goal condition.
@@ -946,6 +1004,14 @@ define servicedependency{
 
 ---
 
+# [fit] Retrospective :clock:
+
+---
+
+# [fit] Thank you! :heart:
+
+### [@sigje](https://twitter.com/sigje)
+### [@beerops](https://twitter.com/beerops)
 
 
 
