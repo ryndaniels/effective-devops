@@ -1,21 +1,3 @@
-# Install Java via a Recipe
-
-## Create feature branch
-
-* git checkout -b install_java
-
-## Create application cookbook
-
-* chef generate cookbook app
-
-## Include java cookbook from supermarket
-
-* open `app/recipes/default.rb` in editor
-* add `include_recipe 'java'`
-* save file
-* open `app/metadata.rb` in editor
-* add `depends 'java'`
-* save file
 
 ## Test
 
