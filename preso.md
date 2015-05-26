@@ -207,6 +207,11 @@ Time: 10 minutes
 
 ---
 
+# Recognizing your Devops Narrative 
+
+---
+
+
 # The Devops Compact
 
 * shared mutual understanding
@@ -1240,6 +1245,10 @@ Time: 20 minutes
 
 ---
 
+# Automated Test and Build
+
+---
+
 # Test, Monitor, or Diagnostic[^2]
 
 1. Where is it going to run?
@@ -1431,6 +1440,38 @@ Time: 20 minutes
 ---
 
 # [fit] Retrospective :clock430:
+
+---
+
+# Review
+
+* Recognizing your Devops Narrative 
+* Application Deployment Planning
+* Infrastructure as code
+* Introducing repeatable, testable change
+* Measuring impact and value of change
+
+^ Devops compact, Empathy, Learned Helplessness, Telling your story
+
+^ Planning your application, Deming Cycle, don't just start solving things
+
+^ Devops tools, including infrastructure as code
+
+^ Testing
+
+^ Monitoring, measuring impact and value of change
+
+---
+
+# Next Steps
+
+* Manual, Automation to Continuous "X"
+* Be the storylistener and storyteller in your org
+* Effective Devops available in Early Release
+
+---
+
+# Slides
 
 ---
 
