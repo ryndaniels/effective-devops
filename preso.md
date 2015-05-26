@@ -53,7 +53,10 @@ slidenumbers: true
 
 # Feedback
 
-* 
+* Constructive feedback
+  * What did you find helpful?
+  * What would you like to see more/less of?
+  * Was there anything you found unclear?
 
 ^ K
 
@@ -61,13 +64,13 @@ slidenumbers: true
 
 # Schedule
 
-*
+* Introduction to teams, devops principles
 * 10:30-11am Morning Break
-*
+* Visualization of work, Git, Infrastructure automation
 * 12:30-1:30pm Lunch
-*
+* Testing infrastucture automation and other changes
 * 3-3:30pm Afternoon Break
-*
+* Measuring, monitoring, and wrap-up
 
 ^ J
 
@@ -593,16 +596,20 @@ Deming Cycle
  * Test and Build
  * Monitoring
 
+^ J
+
 ---
 
-# Local Development Environment
+# Local Development Environment (LDE)
 
 * Consistent set of tools across the team
 * Ability to quickly onboard new engineers
 
+^ K
+
 ---
 
-# Provisioned node - LDE
+# Provisioned Node - LDE
 
 * AWS instance node
 * Chef DK
@@ -611,11 +618,15 @@ Deming Cycle
  * ChefSpec, ServerSpec
 * Git
 
+^ K
+
 ---
 
 # [fit] Configuration Management
 
 * Process of identifying, managing, monitoring, and auditing a product through its entire life including the processes, documentation, people, tools, software, and systems.
+
+^ J
 
 ---
 
@@ -625,6 +636,8 @@ Deming Cycle
 * Enable revisions
 * Integrity checking
 * Collaboration
+
+^ J
 
 ---
 
@@ -636,9 +649,13 @@ Deming Cycle
 * Accessible
 * Versioned
 
+^ K (artifactory, nexus, yum, package.io, rubbygems)
+
 ---
 
 # [fit] Introduction to Git and Workflows
+
+^ K
 
 ---
 
@@ -646,6 +663,8 @@ Deming Cycle
 
 * Not automatically updated
 * Manually pull upstream commits
+
+^ K
 
 ---
 
@@ -658,6 +677,8 @@ $ git add .
 
 adds all files and directories to version control
 
+^ K
+
 ---
 
 # Commit
@@ -666,9 +687,13 @@ adds all files and directories to version control
 $ git commit -m "message about commit" -a
 ```
 
+^ K
+
 ---
 
 All these changes are local! How do you collaborate?
+
+^ K
 
 ---
 
@@ -678,6 +703,8 @@ All these changes are local! How do you collaborate?
 $ git remote -v
 ```
 
+^ K
+
 ---
 
 # Add remote server
@@ -685,6 +712,8 @@ $ git remote -v
 ```
 $ git remote add NAME URL
 ```
+
+^ K
 
 ---
 
@@ -694,6 +723,8 @@ $ git remote add NAME URL
 $ git push REPONAME BRANCH
 ```
 
+^ K
+
 ---
 
 # View the branches
@@ -701,6 +732,8 @@ $ git push REPONAME BRANCH
 ```
 $ git branch -a
 ```
+
+^ K
 
 ---
 
@@ -710,6 +743,8 @@ $ git branch -a
 $ git checkout -b BRANCHNAME
 ```
 
+^ K
+
 ---
 
 # Merging branches
@@ -717,6 +752,9 @@ $ git checkout -b BRANCHNAME
 ```
 $ git merge BRANCH
 ```
+
+^ K
+
 ---
 
 # git fetch
@@ -727,6 +765,8 @@ git checkout master
 git log origin/master
 git merge origin/master
 
+^ K
+
 ---
 
 # Different workflows
@@ -735,6 +775,8 @@ git merge origin/master
 * gitflow
 * forking
 * centralized
+
+^ K
 
 ---
 
@@ -747,22 +789,30 @@ git merge origin/master
 
 [^1]: https://github.com/thieman/github-selfies
 
+^ K
+
 ---
 
 # git pull
 
 git pull REMOTE
 
+^ K
+
 ---
 # git pull --rebase
 
 * ensure linear history by preventing unnecessary merge commits
+
+^ K
 
 ---
 # git push remote branch
 
 * transfer commits from a local repo to a remote repo.
 * counterpart to git fetch
+
+^ K
 
 ---
 
@@ -776,6 +826,8 @@ Time: 15 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
+^ K
+
 ---
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat2.jpg)
@@ -786,11 +838,15 @@ Time: 15 minutes
 
 * Aggregate of applications, configurations, access control, data, compute nodes, network, storage, processes, and people.
 
+^ J
+
 ---
 
 # Infrastructure Automation
 
 * Systems that reduce the burden on people to manage services and increase the quality, accuracy and precision of a service to the consumers of a service
+
+^ J
 
 ---
 
@@ -802,11 +858,13 @@ Time: 15 minutes
 * Salt
 * CFEngine
 
+^ J
+
 ---
 
 # Introduction to Chef
 
-^ Baking Cookies
+^ J, Baking Cookies
 
 ---
 
@@ -972,6 +1030,9 @@ Example:
 Time: 20 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
+^ THIS SHOULD BE RIGHT BEFORE LUNCH
+^ J
 
 ---
 
@@ -1170,6 +1231,8 @@ Time: 15 minutes
 Time: 20 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
+^ THIS WILL BE RIGHT BEFORE THE AFTERNOON BREAK
 
 ---
 
