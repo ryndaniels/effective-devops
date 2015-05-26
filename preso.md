@@ -157,6 +157,7 @@ Time: 10 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/george.png)
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/general.png)
+
 ---
 
 # Stormtrooper Syndrome
@@ -232,7 +233,7 @@ Time: 10 minutes
 
 # Code Review
 
-* max 90 minute in 1 setting
+* max 90 minutes in one setting
 
 ---
 
@@ -424,32 +425,7 @@ Change is inevitable.
 
 # Application Deployment Planning
 
-* (L)inux
-* (A)pache
-* (M)ySQL
-* (P)hp, Perl, or Python
-
----
-
-# Linux - LAMP stack
-
-* OS - Centos
-
----
-
-# Consensus
-
-* write down plan
-* talk to everyone
-* criticism and feeedback
-* update plan
-* review plan
-* execute
-
-
----
-
-# Deming Cycle
+Deming Cycle
 
 * Plan: Identify and Analyze problem
 * Do: Develop and Test potential solution
@@ -458,14 +434,25 @@ Change is inevitable.
 
 ---
 
+# Application Deployment Planning
+
+* (L)inux - Centos
+* (A)pache
+* (M)ySQL
+* (P)hp, Perl, or Python
+
+---
+
 # Devops Tools
 
 * Establish local development environment
 * Version control
-* Automation
+* Manual -> Automation -> Continuous
+ * Artifacts
  * Infrastructure
  * Sandbox
  * Test and Build
+ * Monitoring
 
 ---
 
@@ -509,7 +496,6 @@ Change is inevitable.
 * stable
 * accessible
 * versioned
-
 
 ---
 
@@ -644,9 +630,7 @@ git pull REMOTE
 
 # Assignment 1
 
-* verifying node
-* setting up organization
-* verifying access to repositories
+Time: 15 minutes
 
 ---
 
@@ -676,10 +660,7 @@ git pull REMOTE
 
 # Introduction to Chef
 
-
----
-
-# Nodes
+^ Baking Cookies
 
 ---
 
@@ -692,43 +673,68 @@ git pull REMOTE
 
 # Recipes
 
+* collection of ordered resources
+* combination of ruby and Chef DSL
+
 ---
 
 # Cookbooks
 
----
-
-# Run List
+* thematic
+* collection of recipes and other supporting files
 
 ---
 
 # Roles
 
+* abstraction describing function of system
+* name
+* description
+* run_list ordered list of recipes and roles
+
+---
+
+# Run List
+
+* ordered list of recipes and roles
+* specific to a node
+
+---
+
+# Nodes
+
+* server (virtual, physical, cloud) that is managed by chef
+
 ---
 
 # Environments
 
----
-
-# Chef
-
-* Chef Server
-* Chef Zero
-
+* abstraction models workflow
+* name 
+* description
+* cookbook pinning
 
 ---
 
 # Supermarket
 
+* community site with a number of cookbooks
+* read before using in your environment
+
 ---
 
 # Chef DK
+
+* chef development kit
+* includes a number of utilities and software to facilitate cookbook creation
+* free download off of the website
 
 ---
 
 # Berkshelf
 
 * Dependency management
+* included with Chef DK
 
 ---
 
@@ -836,6 +842,7 @@ Example:
 * small frequent releases
 
 ---
+
 # Linting
 
 * ensure code adheres to styles and conventions.
@@ -945,6 +952,7 @@ end
 ```
 
 ---
+
 # ServerSpec Potential Tests
 
 * Is the service running?
@@ -952,6 +960,7 @@ end
 * Is the expected content being served?
 
 ---
+
 # ServerSpec Example
 
 ```
@@ -966,8 +975,20 @@ end
 ```
 
 ---
+
 # Reading ServerSpec Output
 
+---
+
+# Test, Monitor, or Diagnostic[^2]
+
+1. Where is it going to run?
+2. When is it going to run?
+3. How often will it run?
+4. Who is going to consume the result?
+5. What is the entity going to do with it?
+
+[^2]:Lam, Yvonne. 'Sysadvent: Day 5 - How To Talk About Monitors, Tests, And Diagnostics'. Sysadvent.blogspot.com. N.p., 2014. Web. 26 May 2015.
 ---
 
 # [fit] Measuring Impact and Value of Change

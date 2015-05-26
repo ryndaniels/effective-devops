@@ -22,8 +22,27 @@ In this exercise we are creating a chef-repo. The chef-repo will hold the global
 * git push origin master
 
 
-## Discuss with your team your branching strategy.
+## Discuss with your team your branching strategy. (Team discussion)
 
 * update docs/branch.md (Notetaker) with the team decided strategy
+
+## Install Apache via a Recipe (1 per team)
+
+### Create feature branch
+
+* git checkout -b install_apache
+
+### Create application cookbook
+
+* chef generate cookbook app
+
+### Include apache2 cookbook from supermarket
+
+* open `app/recipes/default.rb` in editor
+* add `include_recipe 'apache2'`
+* save file
+* open `app/metadata.rb` in editor
+* add `depends 'apache2'`
+* save file
 
 

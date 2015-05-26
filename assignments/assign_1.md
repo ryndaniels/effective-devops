@@ -20,12 +20,14 @@ Make a directory that is named as the same as your team name. Create a file that
 
 * If you don't already have a github account, create one.
 * Browse to http://github.com. Supply a username, email address, and password.
-* Free plan is fine. Other plans allow you to have private repo.
+* Free plan is fine. Other plans allow you to have private repositories.
 
-## Share your GitHub identity with your group
+## Share your GitHub identity with your group. 
 
 * Jennifer Davis, iennae
 * Katherine Daniels, kdaniels
+
+## Provide GitHub identities to your instructors. (Notetaker)
 
 ## Accept invitation to GitHub JoeNGo Organization
 
