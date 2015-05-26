@@ -94,6 +94,8 @@ git push origin custom_website
 
 ### Identify what tests you should add for mysql and apache
 
+Need help? [Serverspec docs](http://serverspec.org/) and [Examples from mysql cookbook](https://github.com/chef-cookbooks/mysql/tree/master/test/integration)
+
 * Update `test/integration/default/serverspec/default_spec.rb`:
 * Update `test/integration/default/serverspec/mysql_service_spec.rb`:
 
