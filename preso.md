@@ -7,6 +7,7 @@ slidenumbers: true
 ### Jennifer Davis & Katherine Daniels
 
 ---
+
 # Jennifer Davis
 
 * Automation Engineer, Chef
@@ -20,6 +21,7 @@ slidenumbers: true
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/coffee_ops.jpg)
 
 ---
+
 # Katherine Daniels
 
 * Web Operations Engineer, Etsy
@@ -34,12 +36,15 @@ slidenumbers: true
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/effectivedevops.jpg)
 
 ---
+
 # Communication and Feedback
 
-Twitter: @sigje, @beerops
-Email:
+* Jennifer Davis Twitter: @sigje Email: iennae@gmail.com
+* Katherine Daniels Twitter: @beerops
+
 
 ---
+
 # Schedule
 
 * 10:30-11am Morning Break
@@ -70,10 +75,14 @@ Time: 10 minutes
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/effectivedevops.jpg)
 
 ---
+
 # What is Devops
 
 ---
+
 # Folk Models
+
+* general popularly understood meaning particular to a socio-cultural grouping but which has not been formally defined or standardized.
 
 ---
 # Why Devops?
@@ -104,21 +113,37 @@ Time: 10 minutes
 * Scaling
 
 ---
-# Collaboration: Individuals Working Together
+
+# Collaboration
+
+* Individuals Working Together
 
 ---
-# Hiring: Choosing Individuals
+
+# Hiring
+
+* Choosing Individuals
 
 ---
-# Affinity: From Individuals to Teams
+
+# Affinity
+
+* From Individuals to Teams
 
 ---
-# Tools: Choosing and Using them
+
+# Tools
+
+* Choosing and Using them
 
 ---
-# Scaling: Growing Everything Up
+
+# Scaling
+
+* Growing and Decreasing 
 
 ---
+
 # Collaboration and Tools
 
 ^ Not enough time to cover all pillars. Not enough time to go into great depth which is why we are writing a book! We're going to focus on elements of collaboration and tools today. We'll be doing "Hiring and Tools" at Velocity NY.
@@ -193,6 +218,7 @@ Time: 10 minutes
 * Increased diversity
 
 [^1]: Engel, David et al. 'Reading The Mind In The Eyes Or Reading Between The Lines? Theory Of Mind Predicts Collective Intelligence Equally Well Online And Face-To-Face'. PLoS ONE 9.12 (2014): e115212. Web. 26 May 2015.
+
 ---
 
 # Critical habits for teams
@@ -248,6 +274,7 @@ Time: 15 minutes
 
 
 ---
+
 # Fluxx 
 
 * Game about change. 
@@ -255,6 +282,7 @@ Time: 15 minutes
 * Goal changes frequently.
 
 ---
+
 # Fluxx 
 
 * Starts out with 1 Rule - Draw 1, Play 1
@@ -262,18 +290,21 @@ Time: 15 minutes
 * Place card in the middle of table
 
 ---
+
 # Fluxx
 
 * Shuffle deck
 * Deal 3 cards to each player
 
 ---
+
 # Fluxx
 
 * First player is the person to left of Dealer.
 * Start out following the Draw 1, Play 1 rule until overridden by new rules.
 
 ---
+
 # Fluxx
 
 4 types of cards
@@ -285,9 +316,8 @@ Time: 15 minutes
 
 ![fit](http://www.looneylabs.com/sites/default/files/Fluxx5.0_3D-Contents-hires.jpg)
 
-
-
 ---
+
 # Fluxx - On your turn
 
 * Draw the number of cards currently required.
@@ -296,7 +326,6 @@ Time: 15 minutes
 * Discard down to keeper limit (if any keeper limit).
 
 ---
-![inline](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
 # Fluxx 
 
@@ -305,6 +334,7 @@ Time: 15 minutes
 Time: 15 minutes
 
 ---
+
 # Retrospective
 
 Change is inevitable.
@@ -385,6 +415,8 @@ Change is inevitable.
 
 * collaboration 
 * retrospectives
+
+^ EXPECT TO BE HERE BY 10:30AM BREAK
 
 ---
 
