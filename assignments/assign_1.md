@@ -6,6 +6,12 @@ In this exercise each participant configures and tests a local development envir
 
 ## Introduction to Git
 
+## Customize your workstation
+
+* git config --global user.name "YOUR NAME"
+* git config --global user.email "YOUR EMAIL ADDRESS"
+ 
+
 Make a directory that is named as the same as your team name. Create a file that is the same as your first name without any special punctuation. Initialize the repo, and then make a commit.
 
 * mkdir TEAM
@@ -14,12 +20,6 @@ Make a directory that is named as the same as your team name. Create a file that
 * git init
 * git add .
 * git commit -m "test git"
-
-## Customize your workstation
-
-* git config --global user.name "YOUR NAME"
-* git config --global user.email "YOUR EMAIL ADDRESS"
-
 
 ## Create a GitHub identity
 
