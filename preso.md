@@ -1441,5 +1441,6 @@ Time: 20 minutes
 ### [@sigje](https://twitter.com/sigje)
 ### [@beerops](https://twitter.com/beerops)
 
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/heart.jpg)
 
 
