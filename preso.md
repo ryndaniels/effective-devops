@@ -889,6 +889,7 @@ Example:
 ```
 $ rubocop cookbooks/COOKBOOK1 cookbooks/COOKBOOK2 cookbooks/COOKBOOK4
 ```
+
 ---
 
 # Reading Rubocop Output
@@ -915,6 +916,7 @@ To disable string literals:
 StringLiterals:
   Enabled: false
 ```
+
 ---
 
 # Foodcritic
@@ -930,6 +932,7 @@ StringLiterals:
 ```
 $ foodcritic cookbooks/setup
 ```
+
 ---
 
 # Reading Foodcritic Output
