@@ -27,9 +27,8 @@ slidenumbers: true
 * Web Operations Engineer, Etsy
 * Co-author of "Effective Devops"
 * DevopsDays NYC Organizer
+* Ladies Who Linux NYC Organizer
 * Ship Show Podcast Co-host
-* Ladies Who Linux NYC Co-organizer
-
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat.jpg)
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/beer.jpg)
@@ -40,8 +39,7 @@ slidenumbers: true
 # Communication and Feedback
 
 * Jennifer Davis Twitter: @sigje Email: iennae@gmail.com
-* Katherine Daniels Twitter: @beerops
-
+* Katherine Daniels Twitter: @beerops Email: sparklyyakshaver@gmail.com
 
 ---
 
@@ -57,6 +55,7 @@ slidenumbers: true
 
 * Safe space to share experiences, learn from each other
 * [Code of Conduct](http://www.oreilly.com/conferences/code-of-conduct.html)
+* Learn effective workflows for using and testing source control and configuration management
 
 ---
 
@@ -88,16 +87,16 @@ Time: 10 minutes
 # Why Devops?
 
 ---
-# High Performing devops Teams
-# are more Agile
+# High Performing Devops Teams
+# are more agile
 ## 30X more frequent deployments
 ## 8000X faster lead times than peers
 
 2014 PuppetLabs State of DevOps Survey
 
 ---
-# High Performing devops Teams
-# are more Reliable
+# High Performing Devops Teams
+# are more reliable
 ## 2X change success rate
 ## 12X faster mean time to recovery (MTTR)
 
@@ -346,9 +345,9 @@ Change is inevitable.
 
 # Importance of Games
 
-* Build resilience.
+* Build resilience
 * Build collaboration (or competition)
-* Roles change. 
+* Roles change 
 
 ---
 
@@ -362,62 +361,62 @@ Change is inevitable.
 
 # Visualization of Work
 
-* bug/issues queue
-* kanban
+* Bug/issue queue
+* Kanban
 
 ---
 
 # Kanban
 
-* start with what you do now
-* agree to incremental, evolutionary change
-* respect
-* everyone is a leader
+* Start with what you do now
+* Agree to incremental, evolutionary change
+* Respect
+* Everyone is a leader
 
 ---
 
 # Kanban Practices
 
-* visualize
-* limit wip
-* manage flow
-* make policies explicit
-* implement feedback loops
+* Visualize
+* Limit WIP
+* Manage flow
+* Make policies explicit
+* Implement feedback loops
 
 ---
 
 # Visualize
 
-* intent
-* alignment
-* coherence
+* Intent
+* Alignment
+* Coherence
 
 ---
 
 # Limit WIP
 
-* pull (don't push) 
+* Pull (don't push) 
 
 ---
 
 # Manage Flow
 
-* monitor/measure/report
-* incremental change
+* Monitor/measure/report
+* Incremental change
 
 ---
 
 # Make Policies Explicit
 
-* document processes
-* group signoff 
+* Document processes
+* Group signoff 
 
 ---
 
 # Implement Feedback Loops
 
-* collaboration 
-* retrospectives
+* Collaboration 
+* Retrospectives
 
 ^ EXPECT TO BE HERE BY 10:30AM BREAK
 
@@ -436,10 +435,10 @@ Deming Cycle
 
 # Application Deployment Planning
 
-* (L)inux - Centos
+* (L)inux
 * (A)pache
 * (M)ySQL
-* (P)hp, Perl, or Python
+* (P)HP, Perl, or Python
 
 ---
 
@@ -458,8 +457,8 @@ Deming Cycle
 
 # Local Development Environment
 
-* consistent set of tools across the team
-* ability to quickly onboard new engineers
+* Consistent set of tools across the team
+* Ability to quickly onboard new engineers
 
 ---
 
@@ -476,26 +475,26 @@ Deming Cycle
 
 # [fit] Configuration Management
 
-* process of identifying, managing, monitoring, and auditing a product through its entire life including the processes, documentation, people, tools, software,  and systems.
+* Process of identifying, managing, monitoring, and auditing a product through its entire life including the processes, documentation, people, tools, software, and systems.
 
 ---
 
 # Version Control
 
-* records changes to files or sets of files stored within the system
-* enable revisions
-* integrity checking
-* collaboration
+* Records changes to files or sets of files stored within the system
+* Enable revisions
+* Integrity checking
+* Collaboration
 
 ---
 
 # Artifact Repository
 
-* secure
-* trusted
-* stable
-* accessible
-* versioned
+* Secure
+* Trusted
+* Stable
+* Accessible
+* Versioned
 
 ---
 
@@ -505,8 +504,8 @@ Deming Cycle
 
 # Isolated Development Environments
 
-* not automatically updated
-* manually pull upstream commits
+* Not automatically updated
+* Manually pull upstream commits
 
 ---
 
@@ -529,7 +528,7 @@ $ git commit -m "message about commit" -a
 
 ---
 
-All changes local! How to collaborate?
+All these changes are local! How do you collaborate?
 
 ---
 
@@ -604,6 +603,9 @@ git merge origin/master
 * collaboration prior to integration
  * discussion
  * follow up commits
+ * selfie gifs[^1]
+
+[^1]: https://github.com/thieman/github-selfies
 
 ---
 
@@ -640,21 +642,23 @@ Time: 15 minutes
 
 # Infrastructure
 
-* aggregate of applications, configurations, access control, data, compute nodes, network, storage, processes, and people.
+* Aggregate of applications, configurations, access control, data, compute nodes, network, storage, processes, and people.
 
 ---
 
 # Infrastructure Automation
 
-* systems that reduce the burden on people to manage services and increase the quality, accuracy and precision of a service to the consumers of a service
+* Systems that reduce the burden on people to manage services and increase the quality, accuracy and precision of a service to the consumers of a service
 
 ---
 
 # Infrastructure Automation Tools
 
-* chef
-* puppet
-* ansible
+* Chef
+* Puppet
+* Ansible
+* Salt
+* CFEngine
 
 ---
 
@@ -666,81 +670,81 @@ Time: 15 minutes
 
 # Resources
 
-* ingredients of infrastructure
-* basic building blocks
+* Ingredients of infrastructure
+* Basic building blocks
 
 ---
 
 # Recipes
 
-* collection of ordered resources
-* combination of ruby and Chef DSL
+* Collection of ordered resources
+* Combination of ruby and Chef DSL
 
 ---
 
 # Cookbooks
 
-* thematic
-* collection of recipes and other supporting files
+* Thematic
+* Collection of recipes and other supporting files
 
 ---
 
 # Roles
 
-* abstraction describing function of system
-* name
-* description
-* run_list ordered list of recipes and roles
+* Abstraction describing function of system
+* Name
+* Description
+* Run list (ordered list of recipes and roles)
 
 ---
 
 # Run List
 
-* ordered list of recipes and roles
-* specific to a node
+* Ordered list of recipes and roles
+* Specific to a node
 
 ---
 
 # Nodes
 
-* server (virtual, physical, cloud) that is managed by chef
+* Machine (virtual, physical, cloud server, or other device) that is managed by Chef
 
 ---
 
 # Environments
 
-* abstraction models workflow
-* name 
-* description
-* cookbook pinning
+* Abstraction models workflow
+* Name 
+* Description
+* Cookbook version pinning
 
 ---
 
 # Supermarket
 
-* community site with a number of cookbooks
-* read before using in your environment
+* Community site with a number of cookbooks
+* Read before using in your environment
 
 ---
 
 # Chef DK
 
-* chef development kit
-* includes a number of utilities and software to facilitate cookbook creation
-* free download off of the website
+* Chef development kit
+* Includes a number of utilities and software to facilitate cookbook creation
+* Free download off of the website
 
 ---
 
 # Berkshelf
 
 * Dependency management
-* included with Chef DK
+* Included with Chef DK
 
 ---
 
 # Test Kitchen
 
-* included with Chef DK
+* Included with Chef DK
 * Sandbox automation
 * Test harness
 
@@ -748,8 +752,8 @@ Time: 15 minutes
 
 # Test Kitchen
 
-* execute code on one or more platforms
-* driver plugins supporting various cloud and virtualization providers
+* Execute code on one or more platforms
+* Driver plugins supporting various cloud and virtualization providers
 
 ---
 
