@@ -6,7 +6,7 @@ In this exercise each participant configures and tests a local development envir
 
 ## Introduction to Git
 
-Make a directory that is named as the same as your team name. Create a file that is the same as your first name without any special punctuation. Initialize the repo, and then make a commit. Add a remote repository and push the code to the remote.
+Make a directory that is named as the same as your team name. Create a file that is the same as your first name without any special punctuation. Initialize the repo, and then make a commit.
 
 * mkdir TEAM
 * cd TEAM
@@ -14,10 +14,7 @@ Make a directory that is named as the same as your team name. Create a file that
 * git init
 * git add .
 * git commit -m "test git"
-* git remote -v
-* git remote add origin URL
-* git remote -v
-* git push origin master
+
 
 ## Create a GitHub identity
 
@@ -30,39 +27,25 @@ Make a directory that is named as the same as your team name. Create a file that
 * Jennifer Davis, iennae
 * Katherine Daniels, kdaniels
 
-## Create GitHub Organization (1 per team)
+## Accept invitation to GitHub JoeNGo Organization
 
-In this exercise, each team will create a single github organization and invite the individuals on the team and Jennifer and Katherine to the organization.
-
-* From the main dashboard, upper left click on your name.
-* Click on the "Create organization"
-* Choose your organization name based off of your team name.
-* Billing email off of a team member's email address.
-* Open Source plan
-* Click on Create organization.
-* Invite Jennifer, Katherine, and the rest of the team to the organization.
-
-## Accept invitation to GitHub Organization
-
-* Visit https://github.com/ORGANIZATION
+* Visit https://github.com/JoeNGo
 * Accept invitation.
-
-## Create a repo within your organization (1 per team)
-
-In this exercise, you will create a new repository for the team called "initial-git-test".
-
-* Click on "New repository".
-* In the repository name "initial-git-test".
-* Click on "Initialize this repository with a README".
-* Click on Create repository.
 
 ## Verify access to repo.
 
-* git clone git@github.com:ORGANIZATION/initial-git-test.git
+* git clone git@github.com:JoeNGo/initial-git-test.git
+* git remote -v
+* git push origin master
 * update README.md with your name
 * git add README.md
 * git commit -m "added name"
 * git push origin master
+
+If you run into conflict, pull updates, handle the conflicts, and resubmit edits.
+
+* git pull origin master
+
 
 ### Problems
 
