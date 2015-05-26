@@ -1,10 +1,10 @@
 ## Overview
 
-In this exercise, every team will create a list of what to measure in their own example projects.
+In this exercise, every team will create a list of what to measure in their own example projects. If JoeNGo were running in a production environment, what would you need to monitor and measure to feel confident about its success and stability?
 
 ## Introduction to Nagios
 
-Make a list of services or checks that you would configure in Nagios for your team. Due to time constraints, we will not actually be setting up your own Nagios instances, but make a a list of the checks that you would set up. If you are unfamiliar with Nagios, write out the configuration blocks for the checks.
+Make a list of services or checks that you would configure in Nagios for your team. Due to time constraints, we will not actually be setting up your own Nagios instances, but make a list of the checks that you would set up. If you are unfamiliar with Nagios, write out the configuration blocks for the checks.
 
 Draw the dependencies in the services you will be checking. Again, if you are unfamiliar with Nagios and need more practice, write down the configuration for the dependencies.
 
@@ -18,7 +18,7 @@ If you have time, compare the list of formatted context items you created with t
 
 ## Intro to Statsd
 
-What metrics would be beneficial to have in your environment?
+What metrics would be beneficial to have in your JoeNGo environment?
 
 * Which metrics would you want to show managers, that would make sense in a business context?
 * Which metrics would make sense in an engineering context, that would be beneficial to engineers trying to improve performance, or debug an issue while on-call?

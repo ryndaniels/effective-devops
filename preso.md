@@ -835,31 +835,31 @@ Example:
 
 # Docker
 
-* images
-* registries
-* containers
+* Images
+* Registries
+* Containers
 
 ---
 
 # Managing Risk
 
-* test
-* small frequent releases
+* Test
+* Small frequent releases
 
 ---
 
 # Linting
 
-* ensure code adheres to styles and conventions.
-* weave expectations into development
-* encourages collaboration
+* Ensure code adheres to styles and conventions
+* Weave expectations into development
+* Encourages collaboration
 
 ---
 
 # Testing
 
-* documenting objectives and intent
-* measuring "done"
+* Documenting objectives and intent
+* Measuring "done"
 
 ---
 
@@ -878,9 +878,9 @@ Example:
 
 # Rubocop
 
-* ruby linter
-* [ruby style guide](https://github.com/bbatsov/ruby-style-guide)
-* included with ChefDK
+* Ruby linter
+* [Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
+* Included with ChefDK
 
 ---
 
@@ -919,9 +919,9 @@ StringLiterals:
 
 # Foodcritic
 
-* chef linter
-* [chef style guide](http://foodcritic.io)
-* included with ChefDK
+* Chef linter
+* [Chef style guide](http://foodcritic.io)
+* Included with ChefDK
 
 ---
 
@@ -941,10 +941,10 @@ FC008: Generated cookbook metadata needs updating: ./metadata.rb:2
 
 # ServerSpec
 
-* tests to verify servers functionality
-* resource types
- * package, service, user, and many others
-* integrates with Test Kitchen
+* Tests to verify servers functionality
+* Resource types
+ * Package, service, user, and many others
+* Integrates with Test Kitchen
 * http://serverspec.org
 
 ---
