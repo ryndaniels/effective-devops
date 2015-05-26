@@ -1,6 +1,8 @@
 # Setup a Chef Repository
 
-## Fork team repo
+Read through all the instructions. Determine which items are done by each person in the team and which are done once for the whole team. Break up work into discrete chunks and ensure that everyone does part of the "1 per team" items.
+
+## Fork team repo (Everyone)
 
 Fork your team's repo into your account, and clone it back to your workstation.
 
@@ -13,8 +15,9 @@ Fork your team's repo into your account, and clone it back to your workstation.
 
 ## Generate the chef repo (1 per team)
 
-In this exercise we are creating a chef-repo. The chef-repo will hold the global policy items as well as all of the cookbooks that your team will create.
+In this exercise we are creating a chef-repo. The chef-repo will hold the global policy items as well as all of the cookbooks tha
 
+* cd TEAM-repo
 * chef generate repo chef-repo
 * git add chef-repo
 * git commit -m "Initial creation of chef repo"
@@ -26,17 +29,19 @@ In this exercise we are creating a chef-repo. The chef-repo will hold the global
 
 * update docs/branch.md (Notetaker) with the team decided strategy
 
-## Install Apache via a Recipe (1 per team)
-
-### Create feature branch
-
-* git checkout -b install_apache
-
-### Create application cookbook
+## Create application cookbook (1 per team)
 
 * chef generate cookbook app
 
+## Install Apache via a Recipe (1 per team)
+
+### Create feature branch 
+
+* git checkout -b install_apache
+
 ### Include apache2 cookbook from supermarket
+
+[Apache2 Cookbook](https://supermarket.chef.io/cookbooks/apache2)
 
 * open `app/recipes/default.rb` in editor
 * add `include_recipe 'apache2'`
@@ -45,4 +50,46 @@ In this exercise we are creating a chef-repo. The chef-repo will hold the global
 * add `depends 'apache2'`
 * save file
 
+### Save your changes and commit back to the team's repository
+
+** NOTE**
+
+Make sure that you are not just commiting back to your local repository on the node, or to your fork of the repository.
+
+
+## Install MySQL via a Recipe (1 per team)
+
+### Create feature branch or use your branching strategy
+
+* git checkout -b install_mysql
+
+### Include mysql cookbook from supermarket
+
+* open `app/recipes/default.rb` in editor
+* add `include_recipe 'app::mysql_service'`
+* save file
+* open `app/recipes/mysql_service.rb` in editor
+* add a mysql_config and mysql_service using examples from [mysql cookbook README](https://github.com/chef-cookbooks/mysql)
+* open `app/metadata.rb` in editor
+* add 
+
+```
+depends 'mysql', '~> 6.0'
+```
+* save `app/metadata.rb` file
+
+### Save your changes and commit back to the team's repository
+
+** NOTE**
+
+Make sure that you are not just commiting back to your local repository on the node, or to your fork of the repository.
+
+
+## Outcome 
+
+You should have an updated TEAM-repo with
+
+* updated docs/branch.md, skills.md
+* chef-repo
+* app cookbook
 
