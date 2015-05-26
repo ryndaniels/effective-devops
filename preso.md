@@ -814,6 +814,7 @@ Example:
 * kitchen verify
 * kitchen destroy
 * kitchen test
+
 ---
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat3.jpg)
@@ -926,12 +927,14 @@ StringLiterals:
 $ foodcritic cookbooks/setup
 ```
 ---
+
 # Reading Foodcritic Output
 
 ```
 FC008: Generated cookbook metadata needs updating: ./metadata.rb:2
 ```
 ---
+
 # ServerSpec
 
 * tests to verify servers functionality
@@ -941,6 +944,7 @@ FC008: Generated cookbook metadata needs updating: ./metadata.rb:2
 * http://serverspec.org
 
 ---
+
 # ServerSpec Generic Form
 
 ```
@@ -989,6 +993,7 @@ end
 5. What is the entity going to do with it?
 
 [^2]:Lam, Yvonne. 'Sysadvent: Day 5 - How To Talk About Monitors, Tests, And Diagnostics'. Sysadvent.blogspot.com. N.p., 2014. Web. 26 May 2015.
+
 ---
 
 # [fit] Measuring Impact and Value of Change
