@@ -991,6 +991,38 @@ end
 
 ---
 
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat5.jpg)
+
+---
+
+# Assignment 3
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat6.jpg)
+
+---
+
+# Retrospective Assignment 3
+
+Time: 15 minutes 
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat7.jpg)
+
+---
+
+# Assignment 4
+
+Time: 20 minutes
+
+---
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat8.jpg)
+
+---
+
 # Test, Monitor, or Diagnostic[^2]
 
 1. Where is it going to run?
@@ -1005,6 +1037,7 @@ end
 
 # [fit] Measuring Impact and Value of Change
 
+^ Katherine
 ---
 
 # Impact of Change
