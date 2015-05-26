@@ -1025,7 +1025,7 @@ end
 
 ---
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/vlt1.png)
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/vlt2.png)
 
 ---
 
@@ -1033,7 +1033,7 @@ end
 
 ---
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/vlt2.png)
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/vlt1.png)
 
 ---
 
@@ -1051,8 +1051,9 @@ end
 ```
 define command {
     command_name    check_mongodb_query
-    command_line    $USER1$/nagios-plugin-mongodb/check_mongodb.py -H $HOSTADDRESS$
-                    -A $ARG1$ -P $ARG2$ -W $ARG3$ -C $ARG4$ -q $ARG5$
+    command_line    $USER1$/nagios-plugin-mongodb/check_mongodb.py 
+		    -H $HOSTADDRESS$ -A $ARG1$ -P $ARG2$ 
+		    -W $ARG3$ -C $ARG4$ -q $ARG5$
 }
 
 define service {
@@ -1160,8 +1161,10 @@ define servicedependency{
 * Also better for customers
 * More visibility into issues
 
----
+--- 
+
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat9.jpg)
+
 ---
 
 # Assignment 5
