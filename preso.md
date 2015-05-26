@@ -155,6 +155,8 @@ Time: 10 minutes
 * shared mutual understanding
 * established boundaries
 
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/george.png)
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/general.png)
 ---
 
 # Stormtrooper Syndrome
