@@ -1250,11 +1250,13 @@ Time: 20 minutes
 
 [^2]:Lam, Yvonne. 'Sysadvent: Day 5 - How To Talk About Monitors, Tests, And Diagnostics'. Sysadvent.blogspot.com. N.p., 2014. Web. 26 May 2015.
 
+^ J
+
 ---
 
 # [fit] Measuring Impact and Value of Change
 
-^ Katherine
+^ K
 
 ---
 
