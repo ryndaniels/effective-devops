@@ -15,6 +15,11 @@ Make a directory that is named as the same as your team name. Create a file that
 * git add .
 * git commit -m "test git"
 
+## Customize your workstation
+
+* git config --global user.name "YOUR NAME"
+* git config --global user.email "YOUR EMAIL ADDRESS"
+
 
 ## Create a GitHub identity
 
@@ -40,8 +45,10 @@ Make a directory that is named as the same as your team name. Create a file that
 * git remote -v
 * git push origin master
 * update README.md with your name
+* git status
 * git add README.md
 * git commit -m "added name"
+* git status
 * git push origin master
 
 If you run into conflict, pull updates, handle the conflicts, and resubmit edits.
