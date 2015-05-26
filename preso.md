@@ -7,10 +7,7 @@ slidenumbers: true
 ### Jennifer Davis & Katherine Daniels
 
 ---
-# Introductions
-
----
-# [fit] Jennifer Davis
+# Jennifer Davis
 
 * Automation Engineer, Chef
 * Co-author of "Effective Devops"
@@ -127,6 +124,7 @@ Time: 10 minutes
 ^ Not enough time to cover all pillars. Not enough time to go into great depth which is why we are writing a book! We're going to focus on elements of collaboration and tools today. We'll be doing "Hiring and Tools" at Velocity NY.
 
 ---
+
 # The Devops Compact
 
 * shared mutual understanding
@@ -166,7 +164,7 @@ Time: 10 minutes
 
 # Team
 
-* common purpose
+* common purpose 
 * defined beliefs
 * empowered
 
@@ -187,20 +185,6 @@ Time: 10 minutes
 
 ---
 
-# Common purpose
-
-* appropriate goal based on length of time
-
----
-
-# Defined Beliefs
-
----
-
-# Empowered
-
----
-
 # Smarter Teams Build Better Value[^1]
 
 * Lots of Communication
@@ -209,6 +193,13 @@ Time: 10 minutes
 * Increased diversity
 
 [^1]: Engel, David et al. 'Reading The Mind In The Eyes Or Reading Between The Lines? Theory Of Mind Predicts Collective Intelligence Equally Well Online And Face-To-Face'. PLoS ONE 9.12 (2014): e115212. Web. 26 May 2015.
+---
+
+# Critical habits for teams
+
+* Code Review
+* Pairing
+
 ---
 
 # Code Review
@@ -233,6 +224,12 @@ Time: 10 minutes
 * expert-novice
 * novice-novice
 
+^ When experts pair, work gets done quickly, new innovation not always obtained, depending on skill overlap because not questioning accepted standards of doing things.
+
+^ When expert and novice pair, can be very good or very bad. if expert isn't patient and does all the typing, novice learns helplessness and slow to get anything done. if expert is patient can involve growth for both as novice helps expert to question standards.
+
+^ When novices pair, can work together to learn and achieve more than a novice working on their own. If no understanding in pair, and fire-fighting schedules can lead to poor practices implemented into production higher technical debt.
+
 ---
 
 # Discussion: Team Intro
@@ -242,9 +239,8 @@ Time: 10 minutes
 * What are current skills? gaps in skills?
 Time: 15 minutes
 
-
-
 ---
+
 # Share: Team Intro
 * Team Name:
 * Common Motivations?
@@ -314,6 +310,7 @@ Time: 15 minutes
 Change is inevitable.
 
 ---
+
 # Importance of Games
 
 * Build resilience.
@@ -321,6 +318,7 @@ Change is inevitable.
 * Roles change. 
 
 ---
+
 # Specific to Fluxx
 
 * Frustration of constant changing goals
@@ -328,9 +326,14 @@ Change is inevitable.
 * Visualization of goals, everyone in alignment
 
 ---
+
 # Visualization of Work
 
+* bug/issues queue
+* kanban
+
 ---
+
 # Kanban
 
 * start with what you do now
@@ -339,6 +342,7 @@ Change is inevitable.
 * everyone is a leader
 
 ---
+
 # Kanban Practices
 
 * visualize
@@ -348,42 +352,57 @@ Change is inevitable.
 * implement feedback loops
 
 ---
+
 # Visualize
 
 * intent
 * alignment
-* conherence
+* coherence
 
 ---
+
 # Limit WIP
 
 * pull (don't push) 
 
 ---
+
 # Manage Flow
 
 * monitor/measure/report
 * incremental change
 
 ---
+
 # Make Policies Explicit
 
 * document processes
 * group signoff 
 
 ---
+
 # Implement Feedback Loops
 
 * collaboration 
 * retrospectives
 
 ---
+
 # Application Deployment Planning
+
+* (L)inux
+* (A)pache
+* (M)ySQL
+* (P)hp, Perl, or Python
+
+---
+
+# Linux - LAMP stack
 
 * OS - Centos
 
-
 ---
+
 # Consensus
 
 * write down plan
@@ -393,9 +412,9 @@ Change is inevitable.
 * review plan
 * execute
 
----
 
 ---
+
 # Deming Cycle
 
 * Plan: Identify and Analyze problem
@@ -404,6 +423,7 @@ Change is inevitable.
 * Act: Implement solution
 
 ---
+
 # Devops Tools
 
 * Establish local development environment
@@ -414,12 +434,14 @@ Change is inevitable.
  * Test and Build
 
 ---
+
 # Local Development Environment
 
 * consistent set of tools across the team
 * ability to quickly onboard new engineers
 
 ---
+
 # Provisioned node - LDE
 
 * AWS instance node
@@ -430,11 +452,13 @@ Change is inevitable.
 * Git
 
 ---
+
 # [fit] Configuration Management
 
 * process of identifying, managing, monitoring, and auditing a product through its entire life including the processes, documentation, people, tools, software,  and systems.
 
 ---
+
 # Version Control
 
 * records changes to files or sets of files stored within the system
@@ -443,15 +467,29 @@ Change is inevitable.
 * collaboration
 
 ---
+
+# Artifact Repository
+
+* secure
+* trusted
+* stable
+* accessible
+* versioned
+
+
+---
+
 # [fit] Introduction to Git and Workflows
 
 ---
+
 # Isolated Development Environments
 
 * not automatically updated
 * manually pull upstream commits
 
 ---
+
 # Workspace Environment
 
 ```
@@ -462,6 +500,7 @@ $ git add .
 adds all files and directories to version control
 
 ---
+
 # Commit
 
 ```
@@ -469,9 +508,11 @@ $ git commit -m "message about commit" -a
 ```
 
 ---
+
 All changes local! How to collaborate?
 
 ---
+
 # Show all remotes
 
 ```
@@ -479,6 +520,7 @@ $ git remote -v
 ```
 
 ---
+
 # Add remote server
 
 ```
@@ -486,6 +528,7 @@ $ git remote add NAME URL
 ```
 
 ---
+
 # Update changes to remote directory
 
 ```
@@ -493,6 +536,7 @@ $ git push REPONAME BRANCH
 ```
 
 ---
+
 # View the branches
 
 ```
@@ -500,6 +544,7 @@ $ git branch -a
 ```
 
 ---
+
 # Creating the branches
 
 ```
@@ -507,12 +552,14 @@ $ git checkout -b BRANCHNAME
 ```
 
 ---
+
 # Merging branches
 
 ```
 $ git merge BRANCH
 ```
 ---
+
 # git fetch
 
 * import commits, from remote to local
@@ -556,6 +603,7 @@ git pull REMOTE
 * counterpart to git fetch
 
 ---
+
 # Assignment 1
 
 * verifying node
@@ -563,16 +611,19 @@ git pull REMOTE
 * verifying access to repositories
 
 ---
+
 # Infrastructure
 
 * aggregate of applications, configurations, access control, data, compute nodes, network, storage, processes, and people.
 
 ---
+
 # Infrastructure Automation
 
 * systems that reduce the burden on people to manage services and increase the quality, accuracy and precision of a service to the consumers of a service
 
 ---
+
 # Infrastructure Automation Tools
 
 * chef
@@ -580,34 +631,43 @@ git pull REMOTE
 * ansible
 
 ---
+
 # Introduction to Chef
 
 
 ---
+
 # Nodes
 
 ---
+
 # Resources
 
 * ingredients of infrastructure
 * basic building blocks
 
 ---
+
 # Recipes
 
 ---
+
 # Cookbooks
 
 ---
+
 # Run List
 
 ---
+
 # Roles
 
 ---
+
 # Environments
 
 ---
+
 # Chef
 
 * Chef Server
@@ -615,17 +675,21 @@ git pull REMOTE
 
 
 ---
+
 # Supermarket
 
 ---
+
 # Chef DK
 
 ---
+
 # Berkshelf
 
 * Dependency management
 
 ---
+
 # Test Kitchen
 
 * included with Chef DK
@@ -633,12 +697,14 @@ git pull REMOTE
 * Test harness
 
 ---
+
 # Test Kitchen
 
 * execute code on one or more platforms
 * driver plugins supporting various cloud and virtualization providers
 
 ---
+
 # .kitchen.yml
 
 * driver
@@ -647,6 +713,7 @@ git pull REMOTE
 * suites
 
 ---
+
 # .kitchen.yml driver
 
 * virtualization or cloud provider
@@ -654,6 +721,7 @@ git pull REMOTE
 Example: vagrant, docker
 
 ---
+
 # .kitchen.yml provisioner
 
 * application to configure the node
@@ -661,6 +729,7 @@ Example: vagrant, docker
 Example: chef_zero
 
 ---
+
 # .kitchen.yml platforms
 
 * target operating systems
@@ -668,6 +737,7 @@ Example: chef_zero
 Example: centos-6.5
 
 ---
+
 # .kitchen.yml suites
 
 * target configurations
@@ -681,6 +751,7 @@ Example:
 ```
 
 ---
+
 # Kitchen commands (1/2)
 
 * kitchen init
@@ -689,6 +760,7 @@ Example:
 * kitchen converge
 
 ---
+
 # Kitchen commands (2/2)
 
 * kitchen verify
@@ -696,9 +768,11 @@ Example:
 * kitchen test
 
 ---
+
 # Assignment 2
 
 ---
+
 # Docker
 
 * images
@@ -706,6 +780,7 @@ Example:
 * containers
 
 ---
+
 # Managing Risk
 
 * test
@@ -719,23 +794,27 @@ Example:
 * encourages collaboration
 
 ---
+
 # Testing
 
 * documenting objectives and intent
 * measuring "done"
 
 ---
+
 # Code Correctness
 
 * foodcritic
 * rubocop
 
 ---
+
 # Integration Tests
 
 * ServerSpec
 
 ---
+
 # Rubocop
 
 * ruby linter
@@ -743,12 +822,14 @@ Example:
 * included with ChefDK
 
 ---
+
 # Rubocop Example
 
 ```
 $ rubocop cookbooks/COOKBOOK1 cookbooks/COOKBOOK2 cookbooks/COOKBOOK4
 ```
 ---
+
 # Reading Rubocop Output
 
 ```
@@ -763,6 +844,7 @@ CWCWCCCC
 * `F` means an fatal error
 
 ---
+
 # Disabling Rubocop cops
 
 Any configuration in `.rubocop.yml` is disabled.
@@ -773,6 +855,7 @@ StringLiterals:
   Enabled: false
 ```
 ---
+
 # Foodcritic
 
 * chef linter
@@ -780,6 +863,7 @@ StringLiterals:
 * included with ChefDK
 
 ---
+
 # Foodcritic Example
 
 ```
@@ -1004,7 +1088,7 @@ define servicedependency{
 
 ---
 
-# [fit] Retrospective :clock:
+# [fit] Retrospective :clock430:
 
 ---
 
