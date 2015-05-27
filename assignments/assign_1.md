@@ -44,7 +44,7 @@ https://help.github.com/articles/generating-ssh-keys/
  
 ## Accept invitation to GitHub JoeNGo Organization (Everyone)
 
-Start on this step once you have provided your GitHub identity to your instructors.
+Start on this step once your group's Notetaker has provided the GitHub identities for your group to your instructors.
 
 * Visit https://github.com/JoeNGo
 * Accept invitation.
@@ -121,16 +121,21 @@ Why could you have run into a conflict?
 ## Fork team repo (Everyone)
 
 Fork your team's repo into your account, and clone it back to your workstation.
+Replace "TEAM" with your TEAM's name. 
 
+* From the GitHub GUI interface, click on your TEAM-repo 
 * From the GitHub GUI interface, click on "Fork" and fork into your personal account.
-* git clone git@github.com:USER/TEAM-repo.git
+* cd ~/wd
+* git clone https://github.com/USER/TEAM-repo.git
+* cd TEAM-repo
 * git remote -v
 * update README.md with your name and email address.
-* git status
 * git add README.md
 * git commit -m "added name"
-* git status
 * git push origin master
+* From the GitHub GUI interface, clik on the pull request icon.
+* Add an appropriate message and "Create pull request"
+* Merge the pull request in to your project.
 
 ## Discuss and decide on a branching strategy. (Team discussion)
 
