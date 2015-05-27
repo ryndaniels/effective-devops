@@ -920,6 +920,15 @@ service "httpd" do
 end
 ```
 
+# Resources 
+
+A resource is a statement of policy that:
+
+* Describes the desired state for an element
+* Specifies a resource type---such as ``package``, ``template``, or ``service``
+* Lists additional details (also known as parameters), as necessary
+* Are grouped into recipes
+
 ---
 
 # Recipes
@@ -1516,6 +1525,13 @@ Time: 20 minutes
 ---
 
 # Slides
+
+---
+
+# Further Resources
+
+* [Chef and Containers](https://docs.getchef.com/containers.html)
+* [Serverspec](http://serverspec.org/)
 
 ---
 

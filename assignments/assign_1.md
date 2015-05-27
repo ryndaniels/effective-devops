@@ -133,7 +133,7 @@ Replace "TEAM" with your TEAM's name.
 * git add README.md
 * git commit -m "added name"
 * git push origin master
-* From the GitHub GUI interface, clik on the pull request icon.
+* From the GitHub GUI interface, click on the pull request icon.
 * Add an appropriate message and "Create pull request"
 * Merge the pull request in to your project.
 
@@ -145,3 +145,12 @@ What is the process that you will handle collaboration and branching for your re
 
 * add notes taken during the team discussion to skills.md within the repo.
 * update docs/branch.md with the team decided strategy
+
+## Outcome 
+
+You should have an updated TEAM-repo with
+
+* updated README with everyone from your team's name and email address
+* forked remote TEAM-repo
+* updated docs/branch.md, skills.md
+
