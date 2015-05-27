@@ -110,6 +110,9 @@ Time: 10 minutes
 
 # What is Devops
 
+* Technical cultural weave that shapes how we work, and why
+
+
 ^ J,K
 
 ---
@@ -877,6 +880,45 @@ Time: 15 minutes
 
 * Ingredients of infrastructure
 * Basic building blocks
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/slides_splash_resources.png)
+
+----
+
+# Resource Declaration
+
+
+```ruby
+RESOURCETYPE "RESOURCE_NAME" do
+  PARAMETER PARAMETER_VALUE
+end
+```
+
+
+----
+
+# Example Resource Type - package
+
+A package to be installed:
+
+```ruby
+package "httpd" do
+  action :install
+end
+```
+----
+
+# Example Resource Type - service
+
+A service that should be started:
+
+
+```ruby
+service "httpd" do
+  supports :restart => :true
+  action [:enable, :start]
+end
+```
 
 ---
 
