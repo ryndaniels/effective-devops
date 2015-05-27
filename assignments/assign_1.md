@@ -27,6 +27,13 @@ Make a directory that is named as the same as your team name. Create a file that
 * Browse to http://github.com. Supply a username, email address, and password.
 * Free plan is fine. Other plans allow you to have private repositories.
 
+## (Optional) Setting up your Github keys
+
+If you want to skip using your username and password each time, you can follow the steps here to set up your ssh keys:
+
+https://help.github.com/articles/generating-ssh-keys/
+
+
 ## Share your GitHub identity with your group. 
 
 * Jennifer Davis, iennae
@@ -41,9 +48,8 @@ Make a directory that is named as the same as your team name. Create a file that
 
 ## Verify access to repo.
 
-* git clone git@github.com:JoeNGo/initial-git-test.git
+* git clone https://github.com/JoeNGo/initial-git-test.git
 * git remote -v
-* git push origin master
 * update README.md with your name
 * git status
 * git add README.md
