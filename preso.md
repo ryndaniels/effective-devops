@@ -83,6 +83,13 @@ slidenumbers: true
 
 ---
 
+# Network Connectivity
+
+Network Name: Conference_Private
+Access Code: velocity2015
+
+---
+
 # Expectations
 
 * Safe space to share experiences, learn from each other
