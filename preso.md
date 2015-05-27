@@ -68,6 +68,13 @@ slidenumbers: true
 * 10:30-11am Morning Break
 * Visualization of work, Git, Infrastructure automation
 * 12:30-1:30pm Lunch
+
+^ J
+
+---
+
+# Schedule
+
 * Testing infrastucture automation and other changes
 * 3-3:30pm Afternoon Break
 * Measuring, monitoring, and wrap-up
@@ -1544,12 +1551,6 @@ Time: 20 minutes
 
 # Slides
 
----
-
-# Further Resources
-
-* [Chef and Containers](https://docs.getchef.com/containers.html)
-* [Serverspec](http://serverspec.org/)
 
 ---
 
@@ -1560,4 +1561,10 @@ Time: 20 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/heart.jpg)
 
+---
+
+# Further Resources
+
+* [Chef and Containers](https://docs.getchef.com/containers.html)
+* [Serverspec](http://serverspec.org/)
 

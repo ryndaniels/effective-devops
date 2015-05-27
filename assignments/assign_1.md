@@ -141,7 +141,7 @@ Replace "TEAM" with your TEAM's name.
 
 What is the process that you will handle collaboration and branching for your repo?
 
-### Update docs/skills.md (Notetaker)
+### Update docs/skills.md and docs/branch.md (Notetaker)
 
 * add notes taken during the team discussion to skills.md within the repo.
 * update docs/branch.md with the team decided strategy
