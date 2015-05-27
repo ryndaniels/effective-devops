@@ -645,6 +645,16 @@ Time: 15 minutes
 
 ---
 
+# Nodes
+
+[Countoff](http://bit.ly/1Fg9rxs)
+
+http://bit.ly/1Fg9rxs
+
+^ J
+
+---
+
 # [fit] Configuration Management
 
 * Process of identifying, managing, monitoring, and auditing a product through its entire life including the processes, documentation, people, tools, software, and systems.
