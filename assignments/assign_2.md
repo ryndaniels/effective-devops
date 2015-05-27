@@ -34,21 +34,22 @@ This step depends on the cookbook app being created.
 
 * git checkout -b install_apache
 
-### Include apache2 cookbook from supermarket
-
-[Apache2 Cookbook](https://supermarket.chef.io/cookbooks/apache2)
-
 * open `~/wd/TEAM-repo/chef-repo/cookbooks/app/recipes/default.rb` in editor
-* add `include_recipe 'apache2'`
-* save file
-* open `~/wd/TEAM-repo/chef-repo/cookbooks/app/metadata.rb` in editor
-* add `depends 'apache2'`
-* save file
+* add  
 
-#### Use docker to test your recipe
+```
+package 'httpd'
+
+service 'httpd' do
+  action [ :enable, :start ]
+end
+
+```
+
+#### Use kitchen and docker to test your recipe
 
 * cd ~/wd/TEAM-repo/chef-repo/cookbooks/app
-* Update ~/wd/TEAM-repo/chef-repo/cookbooks/app/.kitchen.local.yml
+* Update ~/wd/TEAM-repo/chef-repo/cookbooks/app/.kitchen.yml
  * Change driver name from `vagrant` to `docker`
  * Remove the line `- name: ubuntu-12.04`
  * Update the centos-6.5 line to include driver_config to forward port 80
@@ -81,11 +82,28 @@ How do you know if your recipe worked? Kitchen converge finishes without errors,
 
 ### Include mysql cookbook from supermarket
 
-* open `app/recipes/default.rb` in editor
+[Supermarket](https://supermarket.chef.io) is the Chef community site. Before using community cookbooks in your environment, always inspect the cookbook. You run the code with root privileges!
+
+* open `~/wd/TEAM-repo/chef-repo/cookbooks/app/recipes/default.rb` in editor
 * add `include_recipe 'app::mysql_service'`
 * save file
-* open `app/recipes/mysql_service.rb` in editor
-* add a mysql_config and mysql_service using examples from [mysql cookbook README](https://github.com/chef-cookbooks/mysql)
+
+#### Using mysql cookbook
+
+We will use the mysql cookbook. The [mysql cookbook](https://github.com/chef-cookbooks/mysql) is a library cookbook, and contains no recipes. It only has resources that we can use that extend the available resources to manage. We will use the mysql_service resource. You can also read the examples in the [mysql cookbook README](https://github.com/chef-cookbooks/mysql) to understand how to use the other available mysql resources.
+
+* open `~/wd/TEAM-repo/chef-repo/cookbooks/app/recipes/mysql_service.rb` in editor
+* add  
+
+```
+mysql_service 'joengo' do
+  port '3306'
+  version '5.5'
+  initial_root_password 'banana'
+  action [:create, :start]
+end
+```
+
 * open `app/metadata.rb` in editor
 * add 
 
@@ -94,10 +112,10 @@ depends 'mysql', '~> 6.0'
 ```
 * save `app/metadata.rb` file
 
-#### Use docker to test your recipe
+#### Use kitchen and docker to test your recipe
 
 * cd ~/wd/TEAM-repo/chef-repo/cookbooks/app
-* Update ~/wd/TEAM-repo/chef-repo/cookbooks/app/.kitchen.local.yml
+* Update ~/wd/TEAM-repo/chef-repo/cookbooks/app/.kitchen.yml
  * Change driver name from `vagrant` to `docker`
  * Remove the line `- name: ubuntu-12.04`
  * Update the centos-6.5 line to include driver_config to forward port 80
@@ -118,10 +136,19 @@ How do you know if your recipe worked? Kitchen converge finishes without errors,
 
  * cd ~/wd/TEAM-repo/chef-repo/cookbooks/
  * git add app
- * git commit -m "install and configure apache"
+ * git commit -m "install and configure mysql"
  * save your changes and commit back to team's repo
 
+## Verify your development environment is consistent (Everyone)
 
+Depending on which part of the work you did, you should make sure that your node is working as expected.
+
+* git pull origin master
+* cd ~/wd/TEAM-repo/chef-repo/cookbooks/app
+* update your .kitchen.yml to match as above
+* kitchen converge
+* kitchen login 
+ * Password: kitchen
 
 ## Outcome 
 
@@ -133,4 +160,18 @@ You should have an updated TEAM-repo with
 
  
 
+### (Optional) Include apache2 cookbook from supermarket
+
+[Supermarket](https://supermarket.chef.io) is the Chef community site. Before using community cookbooks in your environment, always inspect the cookbook. You run the code with root privileges!
+
+The Apache2 cookbook will allow you to set up virtual hosts. You could use this cookbook instead of the simple recipe we have made to install apache.
+
+[Apache2 Cookbook](https://supermarket.chef.io/cookbooks/apache2)
+
+* open `~/wd/TEAM-repo/chef-repo/cookbooks/app/recipes/default.rb` in editor
+* add `include_recipe 'apache2'`
+* save file
+* open `~/wd/TEAM-repo/chef-repo/cookbooks/app/metadata.rb` in editor
+* add `depends 'apache2'`
+* save file
 

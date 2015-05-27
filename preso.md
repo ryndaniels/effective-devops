@@ -558,6 +558,12 @@ Change is inevitable.
 
 ^ J
 
+^ The company has decided to implement a "JoeNGo" web site that will allow for individuals to find a local coffeeshop and meet up friends who have available time on an ad-hoc basis. 
+
+^ Your company currently uses LAMP stack for other applications. Your team needs to decide based on experience whether to extend off of current standards or introduce new technology into your stack.
+
+^ You need to plan, implement, and deploy infrastructure code that will allow rapid iteration on the site while also incorporating visual assests from designers, feedback from marketing and sales, while monitoring the costs of the solution.
+
 ---
 
 # Application Deployment Planning
@@ -587,7 +593,9 @@ Deming Cycle
 
 # Group Discussion
 
-* What are the implications of our decisions?
+Time: 15 minutes
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
 ^ J
 
@@ -920,6 +928,8 @@ service "httpd" do
 end
 ```
 
+---
+
 # Resources 
 
 A resource is a statement of policy that:
@@ -1077,6 +1087,14 @@ Example:
 
 ---
 
+# Docker
+
+* Images
+* Registries
+* Containers
+
+---
+
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat3.jpg)
 
 ---
@@ -1093,14 +1111,6 @@ Time: 20 minutes
 ---
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/cat4.jpg)
-
----
-
-# Docker
-
-* Images
-* Registries
-* Containers
 
 ---
 
@@ -1240,10 +1250,10 @@ end
 ```
 describe 'apache' do
  it "is installed" do
-   expect(package 'apache2').to be_installed
+   expect(package 'httpd').to be_installed
  end
  it "is running" do
-   expect(service 'apache2').to be_running
+   expect(service 'httpd').to be_running
  end
 end
 ```
@@ -1251,6 +1261,14 @@ end
 ---
 
 # Reading ServerSpec Output
+
+```
+app::default
+  httpd service is running
+
+Finished in 0.26429 seconds (files took 0.7166 seconds to load)
+1 example, 0 failures
+```
 
 ---
 
